@@ -1,0 +1,266 @@
+{
+ "pol-atd-01": {
+  "titulo": "Manual de atendimento e resolução de chamados (POL ATD 01)",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-dev-03": {
+  "titulo": "Política de trocas, devoluções e ressarcimento (POL DEV 03, versão 3)",
+  "publico": "cliente",
+  "estrutura": "prosa_tabela",
+  "vigencia": "2026-07-01/9999-12-31"
+ },
+ "pol-ent-02": {
+  "titulo": "Política de entregas e prazos (POL ENT 02)",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-clu-01": {
+  "titulo": "Termos do programa Clube Q+ (POL CLU 01)",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-pro-05": {
+  "titulo": "Lista de itens de venda não permitida (POL PRO 05)",
+  "publico": "cliente",
+  "estrutura": "lista",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-aut-02": {
+  "titulo": "Política de autenticidade (POL AUT 02)",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-dis-04": {
+  "titulo": "Procedimento de disputa e prevenção (POL DIS 04)",
+  "publico": "cliente",
+  "estrutura": "passos",
+  "vigencia": "2026-01-01/"
+ },
+ "pol-gar-01": {
+  "titulo": "Tabela de garantia por categoria (POL GAR 01)",
+  "publico": "cliente",
+  "estrutura": "tabela",
+  "vigencia": "2026-01-01/"
+ },
+ "com-2026-003": {
+  "titulo": "Comunicado COM 2026 003 de 2026-02-10. Ajuste no prazo de primeira resposta",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-02-10/"
+ },
+ "com-2026-007": {
+  "titulo": "Comunicado COM 2026 007 de 2026-04-01. Fila prioritária do Clube Q+",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-04-01/"
+ },
+ "com-2026-014": {
+  "titulo": "Comunicado COM 2026 014 de 2026-07-01. Atualização do teto de reembolso do plano padrão",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-07-01/"
+ },
+ "com-2026-016": {
+  "titulo": "Comunicado COM 2026 016 de 2026-07-15. Recesso da transportadora parceira",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-07-15/2026-07-31"
+ },
+ "com-2026-019": {
+  "titulo": "Comunicado COM 2026 019 de 2026-08-05. Cupom no lugar de reembolso",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-08-05/"
+ },
+ "com-2026-021": {
+  "titulo": "Comunicado COM 2026 021 de 2026-08-20. Garantia da categoria game",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-08-20/"
+ },
+ "com-2026-002": {
+  "titulo": "Comunicado COM 2026 002 de 2026-01-20. Avaliações verificadas",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-01-20/"
+ },
+ "com-2026-005": {
+  "titulo": "Comunicado COM 2026 005 de 2026-03-02. Rastreio em tempo real",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-03-02/"
+ },
+ "com-2026-009": {
+  "titulo": "Comunicado COM 2026 009 de 2026-04-22. Atendimento em feriados",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-04-22/"
+ },
+ "com-2026-011": {
+  "titulo": "Comunicado COM 2026 011 de 2026-05-18. Embalagem retornável",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-05-18/"
+ },
+ "com-2026-018": {
+  "titulo": "Comunicado COM 2026 018 de 2026-07-28. Aviso de entrega por mensagem",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-07-28/"
+ },
+ "com-2026-020": {
+  "titulo": "Comunicado COM 2026 020 de 2026-08-12. Central de privacidade",
+  "publico": "cliente",
+  "estrutura": "comunicado",
+  "vigencia": "2026-08-12/"
+ },
+ "bol-2026-04": {
+  "titulo": "Boletim ao cliente, abril de 2026",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-04-05/"
+ },
+ "bol-2026-07": {
+  "titulo": "Boletim ao cliente, julho de 2026",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-07-05/"
+ },
+ "bol-2026-08": {
+  "titulo": "Boletim ao cliente, agosto de 2026",
+  "publico": "cliente",
+  "estrutura": "prosa",
+  "vigencia": "2026-08-10/"
+ },
+ "ven-repasse": {
+  "titulo": "Política de repasse e devolução de comissão ao vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-anuncio": {
+  "titulo": "Regras de anúncio para vendedores",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-penalidades": {
+  "titulo": "Tabela de penalidades do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-expedicao": {
+  "titulo": "Prazos de expedição do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "rev-dev-v2": {
+  "titulo": "Política de trocas, devoluções e ressarcimento (POL DEV 03, versão 2, revogada)",
+  "publico": "revogada",
+  "estrutura": "prosa",
+  "vigencia": "2026-01-01/2026-06-30"
+ },
+ "rev-gar-v0": {
+  "titulo": "Tabela de garantia por categoria (versão anterior, revogada)",
+  "publico": "revogada",
+  "estrutura": "prosa",
+  "vigencia": "2025-01-01/2025-12-31"
+ },
+ "rev-ent-v1": {
+  "titulo": "Política de entregas (versão 1, revogada)",
+  "publico": "revogada",
+  "estrutura": "prosa",
+  "vigencia": "2025-01-01/2025-12-31"
+ },
+ "ins-termos": {
+  "titulo": "Termos de uso da plataforma",
+  "publico": "institucional",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ins-privacidade": {
+  "titulo": "Política de privacidade",
+  "publico": "institucional",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ins-conduta": {
+  "titulo": "Código de conduta",
+  "publico": "institucional",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ins-relatorio": {
+  "titulo": "Relatório institucional do primeiro semestre de 2026",
+  "publico": "institucional",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-trocas": {
+  "titulo": "Trocas e devoluções, guia do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-frete": {
+  "titulo": "Política de frete do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-disputa": {
+  "titulo": "Como responder disputas, guia do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "ven-reputacao": {
+  "titulo": "Programa de reputação do vendedor",
+  "publico": "vendedor",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "rev-dev-v1": {
+  "titulo": "Política de devoluções (POL DEV 03, versão 1, revogada)",
+  "publico": "revogada",
+  "estrutura": "prosa",
+  "vigencia": "2025-01-01/2025-12-31"
+ },
+ "rev-clu-v0": {
+  "titulo": "Termos do programa de assinatura (versão inicial, revogada)",
+  "publico": "revogada",
+  "estrutura": "prosa",
+  "vigencia": "2025-06-01/2025-12-31"
+ },
+ "ins-imprensa": {
+  "titulo": "Nota à imprensa sobre a expansão logística",
+  "publico": "institucional",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "blog-2026-03": {
+  "titulo": "No blog em março de 2026",
+  "publico": "editorial",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "blog-2026-05": {
+  "titulo": "No blog em maio de 2026",
+  "publico": "editorial",
+  "estrutura": "prosa",
+  "vigencia": ""
+ },
+ "blog-2026-08": {
+  "titulo": "No blog em agosto de 2026",
+  "publico": "editorial",
+  "estrutura": "prosa",
+  "vigencia": ""
+ }
+}
