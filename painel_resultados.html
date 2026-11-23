@@ -1,0 +1,635 @@
+<title>Placar do RAG Quantum Commerce</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: coluna de leitura de ~980px; navegação fixa por seção; a "posição no ranking" (1º..5º) é o motivo visual que se repete. */
+:root{
+  --bg:#f6f7fb; --surface:#ffffff; --ink:#18203a; --muted:#5b6482; --line:#dde1ee;
+  --accent:#2f4bd6; --accent-soft:#e6eafd; --good:#1d8a5b; --good-soft:#dff3ea;
+  --warn:#b7791f; --warn-soft:#fbefd9; --bad:#c2413b; --bad-soft:#fbe3e1;
+  --p1:#2f4bd6; --p2:#5b74e3; --p3:#8a9ded; --p4:#b5c1f4; --p5:#d6ddf9;
+  --display:"Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body:"Inter", "Segoe UI", system-ui, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1322; --surface:#171c30; --ink:#e7eaf6; --muted:#9aa3c2; --line:#2a3150;
+  --accent:#8ea0ff; --accent-soft:#232c55; --good:#4fc28c; --good-soft:#163628;
+  --warn:#e3ac55; --warn-soft:#3a2d14; --bad:#f07b73; --bad-soft:#3c1d1b;
+  --p1:#8ea0ff; --p2:#7083e6; --p3:#5566bf; --p4:#3f4c94; --p5:#30396b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1322; --surface:#171c30; --ink:#e7eaf6; --muted:#9aa3c2; --line:#2a3150;
+  --accent:#8ea0ff; --accent-soft:#232c55; --good:#4fc28c; --good-soft:#163628;
+  --warn:#e3ac55; --warn-soft:#3a2d14; --bad:#f07b73; --bad-soft:#3c1d1b;
+  --p1:#8ea0ff; --p2:#7083e6; --p3:#5566bf; --p4:#3f4c94; --p5:#30396b; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+table{font-size:inherit;color:inherit}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+h1{font-size:clamp(1.9rem,4.5vw,2.8rem);letter-spacing:-.02em}
+h2{font-size:1.55rem;letter-spacing:-.01em}
+h3{font-size:1.08rem}
+p{margin:0;max-width:68ch}
+a{color:var(--accent)}
+code,.mono{font-family:var(--mono);font-size:.86em}
+.wrap{max-width:1000px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* navegação */
+nav.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line)}
+nav.top .wrap{display:flex;gap:4px;overflow-x:auto;padding-block:8px;scrollbar-width:thin}
+nav.top a{flex:none;text-decoration:none;color:var(--muted);font-weight:500;font-size:.88rem;padding:6px 10px;border-radius:6px}
+nav.top a:hover,nav.top a:focus-visible{background:var(--accent-soft);color:var(--accent);outline:none}
+
+header.hero{padding-block:44px 28px}
+.hero .eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.hero h1{margin-top:8px}
+.hero p.lede{margin-top:14px;color:var(--muted);font-size:1.05rem}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:26px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.kpi .lab{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.kpi .val{font-family:var(--display);font-size:1.7rem;font-weight:600;font-variant-numeric:tabular-nums}
+.kpi .val small{font-size:.9rem;color:var(--muted);font-weight:500}
+.kpi .delta{font-size:.82rem;color:var(--good);font-weight:600}
+
+section{padding-block:36px;border-top:1px solid var(--line)}
+section > .wrap{display:flex;flex-direction:column;gap:16px}
+.sub{color:var(--muted)}
+
+/* glossário */
+.gloss{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.term{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.term h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.term .tag{font-family:var(--mono);font-size:.7rem;font-weight:600;padding:2px 7px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.term .tag.ragas{background:var(--warn-soft);color:var(--warn)}
+.term .tag.juiz{background:var(--good-soft);color:var(--good)}
+.term p{font-size:.93rem}
+.term .ex{font-size:.85rem;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.group-title{font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+
+/* simulador */
+.sim{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px}
+@media (max-width:720px){.sim{grid-template-columns:1fr}}
+.sim-rows{display:flex;flex-direction:column;gap:8px}
+.sim-row{display:grid;grid-template-columns:5.5rem 1fr 3.4rem;align-items:center;gap:8px}
+.sim-row .q{font-family:var(--mono);font-size:.82rem;color:var(--muted)}
+.slots{display:flex;gap:4px}
+.slot{flex:1;min-width:0;height:34px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--muted);font-family:var(--mono);font-size:.8rem;cursor:pointer}
+.slot.none{flex:1.3}
+.slot[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+.slot.none[aria-pressed="true"]{background:var(--bad);border-color:var(--bad)}
+.slot:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sim-row .rr{font-family:var(--mono);font-size:.85rem;text-align:right;font-variant-numeric:tabular-nums}
+.sim-out{display:flex;flex-direction:column;gap:10px}
+.sim-out .m{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:6px}
+.sim-out .m b{font-family:var(--display);font-size:1.35rem;font-variant-numeric:tabular-nums}
+.sim-out .formula{font-family:var(--mono);font-size:.8rem;color:var(--muted);word-break:break-word}
+
+/* cadeia */
+.chain{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);font-family:var(--body);font-weight:600;font-size:.88rem;padding:8px 12px;border-radius:8px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;gap:1px}
+.chip small{font-weight:500;color:var(--muted);font-size:.74rem}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip.win::after{content:"escolhida";font-size:.66rem;font-family:var(--mono);color:var(--good);margin-top:2px}
+.detail{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+@media (max-width:720px){.detail{grid-template-columns:1fr}}
+.detail h3{font-size:1.2rem}
+.detail .what{color:var(--muted);font-size:.92rem;margin-top:4px}
+.goods{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.goods li{padding-left:22px;position:relative;font-size:.93rem}
+.goods li::before{content:"+";position:absolute;left:0;top:0;font-family:var(--mono);font-weight:700;color:var(--good)}
+.goods li.minus::before{content:"−";color:var(--bad)}
+.goods li.note::before{content:"i";color:var(--accent)}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mini div{background:var(--bg);border-radius:8px;padding:10px;display:flex;flex-direction:column}
+.mini span{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.mini b{font-family:var(--display);font-size:1.25rem;font-variant-numeric:tabular-nums}
+.mini em{font-style:normal;font-size:.78rem;font-weight:600}
+.up{color:var(--good)} .down{color:var(--bad)} .flat{color:var(--muted)}
+.qlist{font-family:var(--mono);font-size:.8rem;color:var(--muted);margin-top:10px}
+
+/* gráfico */
+.chart-box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;overflow-x:auto}
+.chart-legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.82rem;color:var(--muted);margin-bottom:6px}
+.chart-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+svg text{font-family:var(--body)}
+
+/* tabelas */
+.tbl{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+table.t{border-collapse:collapse;width:100%;min-width:560px}
+.t th,.t td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums;white-space:nowrap}
+.t th:first-child,.t td:first-child{text-align:left}
+.t td.txt{text-align:left;white-space:normal;min-width:220px;color:var(--muted);font-size:.88rem}
+.t thead th{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;background:var(--bg)}
+.t tbody tr:last-child td{border-bottom:none}
+.t tr.hl td{background:var(--accent-soft)}
+.t td.best{font-weight:700;color:var(--good)}
+.pill{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:99px}
+.pill.g{background:var(--good-soft);color:var(--good)} .pill.w{background:var(--warn-soft);color:var(--warn)} .pill.b{background:var(--bad-soft);color:var(--bad)}
+.bar{display:inline-flex;align-items:center;gap:8px;justify-content:flex-end;width:100%}
+.bar i{display:inline-block;height:8px;border-radius:4px;background:var(--accent);opacity:.75}
+.bar i.g{background:var(--good)} .bar i.w{background:var(--warn)} .bar i.b{background:var(--bad)}
+
+.callout{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--warn);border-radius:8px;padding:14px 16px;font-size:.93rem}
+.callout.good{border-left-color:var(--good)}
+.callout.info{border-left-color:var(--accent)}
+.callout b{font-weight:600}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px}
+@media (max-width:720px){.two{grid-template-columns:1fr}}
+
+/* matriz */
+.filters{display:flex;gap:6px;flex-wrap:wrap}
+.filters button{border:1px solid var(--line);background:var(--surface);color:var(--ink);font-size:.85rem;padding:6px 11px;border-radius:99px;cursor:pointer;font-family:var(--body)}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.filters button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+table.mx{border-collapse:separate;border-spacing:3px;min-width:600px;width:100%}
+.mx th{font-size:.72rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:6px 4px;text-align:center}
+.mx th:first-child{text-align:left}
+.mx td{text-align:center;font-family:var(--mono);font-size:.85rem;height:30px;border-radius:5px;font-variant-numeric:tabular-nums}
+.mx td.id{text-align:left;color:var(--muted);font-size:.8rem;padding-left:4px}
+.mx td.p1{background:var(--p1);color:#fff;font-weight:600}
+.mx td.p2{background:var(--p2);color:#fff}
+.mx td.p3{background:var(--p3);color:var(--ink)}
+.mx td.p4{background:var(--p4);color:var(--ink)}
+.mx td.p5{background:var(--p5);color:var(--ink)}
+.mx td.miss{background:var(--bad-soft);color:var(--bad)}
+.mx td.wrong{outline:2px dashed var(--warn);outline-offset:-2px}
+.mx .hist{font-size:.66rem;font-family:var(--mono);color:var(--warn);margin-left:4px}
+.legend-row{display:flex;gap:10px;flex-wrap:wrap;font-size:.8rem;color:var(--muted);align-items:center}
+.legend-row span{display:inline-flex;align-items:center;gap:5px}
+.legend-row i{display:inline-block;width:18px;height:14px;border-radius:3px}
+
+ol.next{margin:0;padding-left:1.3rem;display:flex;flex-direction:column;gap:10px;max-width:72ch}
+ol.next li::marker{font-family:var(--mono);color:var(--accent);font-weight:600}
+footer{padding-block:28px 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:no-preference){.chip,.slot,.filters button{transition:background .15s,border-color .15s,color .15s}}
+</style>
+
+<nav class="top" aria-label="Seções">
+  <div class="wrap">
+    <a href="#conceitos">Conceitos</a>
+    <a href="#simulador">Simulador</a>
+    <a href="#cadeia">Estratégias</a>
+    <a href="#ablacao">Ablação</a>
+    <a href="#ragas">RAGAS</a>
+    <a href="#chamados">200 chamados</a>
+    <a href="#matriz">Matriz</a>
+    <a href="#licoes">Lições</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Projeto final · RAG de atendimento · FIAP</div>
+    <h1>Placar do RAG Quantum Commerce</h1>
+    <p class="lede">O que medimos, o que cada estratégia trouxe e onde o assistente ainda erra. Cada estratégia entrou sozinha, uma mudança por vez, medida nas 62 perguntas de referência. A escolhida rodou nos 200 chamados.</p>
+    <div class="kpis">
+      <div class="kpi"><span class="lab">Hit@5 (métrica oficial)</span><span class="val">59<small> / 62</small></span><span class="delta">linha de base: 50</span></div>
+      <div class="kpi"><span class="lab">Acerto em 1º (Hit@1)</span><span class="val">47<small> / 62</small></span><span class="delta">linha de base: 32</span></div>
+      <div class="kpi"><span class="lab">MRR</span><span class="val">0,819</span><span class="delta">linha de base: 0,618</span></div>
+      <div class="kpi"><span class="lab">Chamados com desfecho</span><span class="val">97%</span><span class="delta" style="color:var(--muted)">200 chamados, C5 + prompt novo</span></div>
+    </div>
+  </div>
+</header>
+
+<section id="conceitos">
+  <div class="wrap">
+    <h2>Conceitos em uma linha</h2>
+    <p class="sub">Um resumo rápido do vocabulário. Os exemplos usam números do próprio trabalho.</p>
+
+    <div class="group-title">Métricas de recuperação · medidas sem LLM, nas 62 perguntas</div>
+    <div class="gloss">
+      <div class="term"><h3>Hit@k <span class="tag">recuperação</span></h3>
+        <p>A pergunta conta como acerto se a resposta de referência aparece em algum dos <b>k</b> trechos recuperados. É a nossa métrica oficial, com k = 5.</p>
+        <p class="ex">Ex.: a C5 acerta 59 de 62. Ou seja, em 59 perguntas o trecho com a resposta estava entre os 5 que foram para o LLM.</p></div>
+      <div class="term"><h3>Hit@1 e Hit@3 <span class="tag">recuperação</span></h3>
+        <p>Mesma ideia com k menor: o trecho certo veio em 1º lugar, ou entre os 3 primeiros. Mostra se a resposta está no topo ou escondida no fim da lista.</p>
+        <p class="ex">Ex.: a C4 tem Hit@5 menor que a C3 (57 contra 58), mas Hit@1 maior (43 contra 39).</p></div>
+      <div class="term"><h3>MRR <span class="tag">recuperação</span></h3>
+        <p><b>Mean Reciprocal Rank.</b> Para cada pergunta vale 1 dividido pela posição do primeiro trecho certo: 1º = 1; 2º = 0,5; 3º = 0,33; 5º = 0,2; não achou = 0. O MRR é a média. Quanto mais perto de 1, mais no topo está a resposta.</p>
+        <p class="ex">Ex.: linha de base 0,618 → C5 0,819. Teste no simulador abaixo.</p></div>
+      <div class="term"><h3>Fonte certa <span class="tag">recuperação</span></h3>
+        <p>Acerto que veio de um documento válido: de cliente (ou revogado), e vigente na data da pergunta. Pega o acerto "por sorte", vindo do documento errado.</p>
+        <p class="ex">Limite: não pega o q12. O "5 dias úteis" veio da política de autenticidade, que é de cliente e vigente, mas não é a política do caso.</p></div>
+    </div>
+
+    <div class="group-title">RAGAS · um LLM avalia a resposta gerada, numa amostra de 20 perguntas</div>
+    <div class="gloss">
+      <div class="term"><h3>O que é o RAGAS <span class="tag ragas">avaliação</span></h3>
+        <p>Biblioteca que usa um LLM como avaliador para dar notas de 0 a 1 ao pipeline inteiro: recuperação e geração. Mede o que o Hit@k não vê: se a resposta é fiel aos trechos e se responde à pergunta.</p></div>
+      <div class="term"><h3>Fidelidade <span class="tag ragas">geração</span></h3>
+        <p>O avaliador quebra a resposta em afirmações e confere cada uma nos trechos. A nota é a fração de afirmações apoiadas. Baixa = o modelo afirmou o que não estava no contexto.</p>
+        <p class="ex">Armadilha: frases com "Quantum Commerce" foram reprovadas porque o nome vem do prompt, não dos trechos.</p></div>
+      <div class="term"><h3>Precisão do contexto <span class="tag ragas">recuperação</span></h3>
+        <p>Dos trechos recuperados, quais são úteis para chegar à resposta de referência, e eles aparecem antes dos inúteis? Parecida com o MRR, mas julgada por um LLM.</p></div>
+      <div class="term"><h3>Relevância da resposta <span class="tag ragas">geração</span></h3>
+        <p>A resposta responde ao que foi perguntado? O avaliador gera perguntas a partir da resposta e compara com a original por similaridade. Resposta evasiva ("não há informação") recebe 0.</p></div>
+    </div>
+
+    <div class="group-title">Juiz dos 200 chamados · 4 critérios por resposta</div>
+    <div class="gloss">
+      <div class="term"><h3>Desfecho <span class="tag juiz">juiz</span></h3><p>A resposta diz ao cliente o que vai acontecer com o chamado, com a política aplicável.</p></div>
+      <div class="term"><h3>Parâmetro <span class="tag juiz">juiz</span></h3><p>Informa o prazo ou o valor certo do caso. Casos sem prazo nem valor ("na") ficam fora da conta.</p></div>
+      <div class="term"><h3>Inventou <span class="tag juiz">juiz</span></h3><p>Afirma prazo, valor ou regra que não está nos trechos que o assistente recebeu. Quanto menor, melhor.</p></div>
+      <div class="term"><h3>Abstenção <span class="tag juiz">juiz</span></h3><p>Declara que os documentos não cobrem o caso. É boa quando não há política; é ruim quando a política existe mas não chegou ao contexto.</p></div>
+    </div>
+
+    <div class="group-title">Peças do pipeline</div>
+    <div class="gloss">
+      <div class="term"><h3>Chunk</h3><p>Pedaço de documento indexado. Começamos com fixo (800 caracteres, 100 de sobreposição) e terminamos com um chunk por seção, com cabeçalho [título | seção | público | vigência].</p></div>
+      <div class="term"><h3>Vigência</h3><p>Período em que um documento vale. O pré-filtro só deixa passar documentos vigentes na data da pergunta ou do chamado. Revogado não é lixo: é a política de outra data.</p></div>
+      <div class="term"><h3>BM25 e busca híbrida</h3><p>BM25 é busca por palavras exatas, boa para códigos como "COM 2026 007". A híbrida junta BM25 e busca densa (embeddings) com o <b>RRF</b>, que soma 1/(60 + posição) de cada lista.</p></div>
+      <div class="term"><h3>Re-ranking (cross-encoder)</h3><p>Um segundo modelo lê pergunta e trecho juntos e dá uma nota de relevância. Reordena os 20 candidatos da híbrida e fica com os 5 melhores. É mais preciso e mais lento: cerca de 0,26 s por pergunta.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="simulador">
+  <div class="wrap">
+    <h2>Simulador: Hit@k e MRR na mão</h2>
+    <p class="sub">Escolha em que posição o trecho certo apareceu para cada pergunta e veja as métricas mudarem. Começa com 5 perguntas de exemplo.</p>
+    <div class="sim">
+      <div class="sim-rows" id="simRows"></div>
+      <div class="sim-out" id="simOut"></div>
+    </div>
+  </div>
+</section>
+
+<section id="cadeia">
+  <div class="wrap">
+    <h2>O que cada estratégia trouxe</h2>
+    <p class="sub">Clique numa configuração. Cada uma soma uma única mudança à anterior, e as variações são sempre em relação ao passo anterior.</p>
+    <div class="chain" id="chain" role="group" aria-label="Configurações"></div>
+    <div class="detail" id="detail"></div>
+
+    <div class="chart-box">
+      <div class="chart-legend"><span><i style="background:var(--p4)"></i>Hit@5 (de 62)</span><span><i style="background:var(--accent)"></i>Hit@1 (de 62)</span><span><i style="background:var(--good)"></i>MRR (eixo da direita)</span></div>
+      <svg id="chainChart" viewBox="0 0 720 260" width="100%" role="img" aria-label="Hit@5, Hit@1 e MRR por configuração"></svg>
+    </div>
+
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Configuração</th><th>Mudança</th><th>Hit@5</th><th>Δ</th><th>Fonte certa</th><th>Hit@1</th><th>Hit@3</th><th>MRR</th></tr></thead>
+        <tbody id="chainTable"></tbody>
+      </table>
+    </div>
+    <div class="callout good"><b>Escolha do k (antes das melhorias):</b> k = 3 acerta 43, k = 5 acerta 50, k = 8 acerta 52 e k = 10 acerta 54. Ficamos com k = 5 (cerca de 860 tokens de contexto). Depois dele cada acerto extra custa muitos tokens: o k = 10 quase dobra o contexto (cerca de 1.760 tokens) para ganhar 4 perguntas.</div>
+    <div class="callout"><b>Variante isolada, a curadoria ingênua (apagar os revogados):</b> parece limpeza, mas 134 dos 200 chamados foram abertos quando valia a versão 2 da política de devolução, já revogada. Sem os revogados, esses chamados ficariam sem nenhuma política de devolução. Por isso os revogados ficaram no índice, e o filtro de vigência escolhe a versão certa.</div>
+  </div>
+</section>
+
+<section id="ablacao">
+  <div class="wrap">
+    <h2>Ablação: tirar uma peça da C5 de cada vez</h2>
+    <p class="sub">Se tirar a peça piora, ela contribui. As duas peças finais contribuem, de jeitos diferentes.</p>
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Variante</th><th>Hit@5</th><th>Hit@1</th><th>Hit@3</th><th>MRR</th><th>O que mostra</th></tr></thead>
+        <tbody>
+          <tr class="hl"><td>C5 completa (híbrida + re-ranking)</td><td class="best">59</td><td class="best">47</td><td>52</td><td class="best">0,819</td><td class="txt">Referência.</td></tr>
+          <tr><td>sem híbrida (densa + re-ranking)</td><td>58</td><td>46</td><td>51</td><td>0,803</td><td class="txt">A híbrida traz o q51: o BM25 encontra o termo exato que a busca densa não acha.</td></tr>
+          <tr><td>sem re-ranking (= C4)</td><td>57</td><td>43</td><td>55</td><td>0,792</td><td class="txt">O re-ranking põe mais respostas em 1º (+4 no Hit@1) e recupera q07, q51, q62 e q64.</td></tr>
+          <tr><td>sem as duas (= C3 final)</td><td>58</td><td>39</td><td>53</td><td>0,747</td><td class="txt">Acerta quase tanto no top-5, mas a resposta fica mais para baixo na lista.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout info">Entre os 20 candidatos que o re-ranking recebe, a híbrida tem um trecho de fonte certa em <b>62 de 62</b> perguntas; a densa sozinha, em 61. O teto da C5 é alto: o que falta é ordenar melhor.</div>
+  </div>
+</section>
+
+<section id="ragas">
+  <div class="wrap">
+    <h2>RAGAS: qualidade da resposta</h2>
+    <p class="sub">Amostra de 20 perguntas, 18 atuais e 2 históricas. Com n = 20, uma pergunta move a média em até 0,05.</p>
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Rodada</th><th>Fidelidade</th><th>Fidelidade sem o artefato do nome</th><th>Precisão do contexto</th><th>Relevância</th><th>Relevância sem "não sei"</th></tr></thead>
+        <tbody id="ragasTable"></tbody>
+      </table>
+    </div>
+    <div class="two">
+      <div class="callout good"><b>O que o RAGAS confirmou.</b> A precisão do contexto segue a mesma ordem do MRR: linha de base 0,58 → C3 0,70 → C5 0,78. A relevância da linha de base cai por 3 respostas "não há informação", e duas são as perguntas históricas. É o problema que o filtro de vigência resolve.</div>
+      <div class="callout"><b>O que pareceu ruim e não era.</b> A fidelidade da C5 ficou abaixo da C3. Lendo os 484 vereditos, 12 das 21 afirmações reprovadas da C5 só citavam "Quantum Commerce", nome que vem do prompt. No q19, a mesma resposta correta levou 1,0 na C3 e 0,33 na C5.</div>
+    </div>
+    <div class="callout info"><b>Um acerto falso que só o RAGAS pegou:</b> no q12 a C5 "acerta" o Hit@5 porque "5 dias úteis" aparece no 5º trecho, mas esse trecho é da política de autenticidade. A tabela de faixas de valor, que estava em 1º na C3, saiu do contexto. Precisão do contexto: 0.</div>
+  </div>
+</section>
+
+<section id="chamados">
+  <div class="wrap">
+    <h2>Rodada nos 200 chamados</h2>
+    <p class="sub">Configuração C5 com o prompt novo da Etapa 6. A data de referência é a de abertura do chamado, e o pedido leva categoria, valor e faixa. Um LLM juiz avalia 4 critérios.</p>
+
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Consulta usada na busca</th><th>Política certa no top-5</th><th>Política certa em 1º</th></tr></thead>
+        <tbody>
+          <tr><td>só o texto da reclamação</td><td>80,6%</td><td>39,4%</td></tr>
+          <tr class="hl"><td>"Assunto: &lt;classe&gt;." + texto (usada)</td><td class="best">99,4%</td><td class="best">73,3%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sub" style="font-size:.88rem">O texto livre (saudação, desabafo, detalhes do pedido) dilui a intenção. Pôr a classe do chamado na consulta recoloca a política certa no topo. A classe vem do classificador, então já existe no momento da resposta.</p>
+
+    <div class="kpis" style="margin-top:4px">
+      <div class="kpi"><span class="lab">Desfecho</span><span class="val">97,0%</span><span class="delta">cliente sabe o que acontece</span></div>
+      <div class="kpi"><span class="lab">Parâmetro certo</span><span class="val">54,9%</span><span class="delta" style="color:var(--bad)">50 de 91 casos com prazo ou valor</span></div>
+      <div class="kpi"><span class="lab">Inventou</span><span class="val">6,0%</span><span class="delta">12 chamados</span></div>
+      <div class="kpi"><span class="lab">Abstenção</span><span class="val">25,0%</span><span class="delta" style="color:var(--warn)">certa em "outros", errada em devolução</span></div>
+    </div>
+
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Classe</th><th>n</th><th>Desfecho</th><th>Parâmetro certo</th><th>Inventou</th><th>Abstenção</th><th>Leitura</th></tr></thead>
+        <tbody id="chTable"></tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:8px">Por que o parâmetro falha: o documento vem, a seção não</h3>
+    <div class="tbl">
+      <table class="t">
+        <thead><tr><th>Recuperação (sem LLM)</th><th>Devolução: seção com o número</th><th>Defeito: tabela de garantia</th></tr></thead>
+        <tbody>
+          <tr><td>C5, só o texto</td><td>6 / 30</td><td>4 / 30</td></tr>
+          <tr class="hl"><td>C5, classe + texto (rodada)</td><td>10 / 30</td><td>0 / 30</td></tr>
+          <tr><td>sem seções genéricas, classe + texto</td><td class="best">23 / 30</td><td>0 / 30</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="two">
+      <div class="callout"><b>Seções genéricas ocupam as vagas.</b> "Definições" e "Objetivo e Âmbito" repetem o assunto da política e casam com o "Assunto: devolução". São em média 1,67 por chamado de devolução. Tirá-las do índice leva a seção certa de 10 para 23 de 30, sem piorar as 62 perguntas (MRR 0,823).</div>
+      <div class="callout"><b>O re-ranking enterra as tabelas.</b> Quando a tabela de garantia entra nos 20 candidatos, o cross-encoder a manda para a 20ª posição, mesmo quando a híbrida a tinha em 1º. Tabela em markdown não "parece" uma resposta para ele. O q12 e o q40 caíram pelo mesmo motivo.</div>
+    </div>
+  </div>
+</section>
+
+<section id="matriz">
+  <div class="wrap">
+    <h2>Matriz pergunta × configuração</h2>
+    <p class="sub">Posição do primeiro trecho com a resposta. Aparecem as 38 perguntas em que alguma configuração muda o resultado; as outras 24 ficam em 1º em todas.</p>
+    <div class="filters" id="mxFilters" role="group" aria-label="Filtro da matriz">
+      <button type="button" data-f="all" aria-pressed="true">Todas (38)</button>
+      <button type="button" data-f="hist">Históricas</button>
+      <button type="button" data-f="c5miss">C5 fora do top-5</button>
+      <button type="button" data-f="c3gain">Ganhas na C3</button>
+      <button type="button" data-f="c5gain">Ganhas na C5</button>
+    </div>
+    <div class="legend-row">
+      <span><i style="background:var(--p1)"></i>1º</span><span><i style="background:var(--p2)"></i>2º</span><span><i style="background:var(--p3)"></i>3º</span><span><i style="background:var(--p4)"></i>4º</span><span><i style="background:var(--p5)"></i>5º</span>
+      <span><i style="background:var(--bad-soft)"></i>· fora do top-5</span><span><i style="outline:2px dashed var(--warn);outline-offset:-2px"></i>* fonte errada</span>
+    </div>
+    <div class="tbl" style="padding:8px"><table class="mx"><thead><tr id="mxHead"></tr></thead><tbody id="mxBody"></tbody></table></div>
+  </div>
+</section>
+
+<section id="licoes">
+  <div class="wrap">
+    <h2>Lições e próximos passos</h2>
+    <div class="two">
+      <div class="callout good"><b>Venceu a C5</b>: vigência + curadoria + chunk por estrutura + híbrida + re-ranking. Tem os melhores Hit@5, Hit@1, MRR e precisão do contexto. O maior salto foi o chunk por estrutura (+5 perguntas). A vigência garante as perguntas históricas.</div>
+      <div class="callout"><b>Os erros estão quase todos na recuperação.</b> A geração erra pouco: invenção em 6%, abstenção certa em "outros". O que falta é trazer a seção com o número, sobretudo as tabelas.</div>
+    </div>
+    <ol class="next">
+      <li><b>Tirar as seções genéricas do índice</b> (76 de 313 chunks). Já medido: devolução 10 → 23 de 30, sem perder nas 62 perguntas.</li>
+      <li><b>Consultar as tabelas pelos metadados</b> do chamado: categoria → prazo de garantia, valor + data → linha da faixa. É o único caminho medido que tira "defeito" do zero.</li>
+      <li><b>Proteger tabelas no re-ranking</b>, por exemplo mantendo o 1º da híbrida, ou testar um re-ranker que lide com tabelas.</li>
+      <li><b>Ajustar o prompt</b>: encaminhamento genérico, sem prometer procedimentos; prazo de arrependimento contado do recebimento; sem o nome da empresa no texto.</li>
+      <li><b>Avaliar melhor</b>: juiz de outro modelo que justifique o veredito, conferência manual dos casos de "inventou" e métrica de recuperação por seção, não só por documento.</li>
+    </ol>
+  </div>
+</section>
+
+<footer><div class="wrap">Números do notebook <span class="mono">Projeto_Final_QuantumCommerce.ipynb</span>: 62 perguntas de referência, amostra RAGAS de 20 perguntas e 200 chamados. LLM gerador e juiz: Gemini Flash. Embeddings: multilingual-e5-base. Re-ranker: mmarco-mMiniLMv2.</div></footer>
+
+<script>
+(function(){
+  const fmt = (x, d=3) => x.toFixed(d).replace(".", ",");
+
+  /* ---------- simulador ---------- */
+  const simState = [1, 2, 0, 5, 1];          // 0 = não achou
+  const simRows = document.getElementById("simRows"), simOut = document.getElementById("simOut");
+  function renderSim(){
+    simRows.innerHTML = "";
+    simState.forEach((pos, i) => {
+      const row = document.createElement("div"); row.className = "sim-row";
+      const q = document.createElement("span"); q.className = "q"; q.textContent = "pergunta " + (i+1);
+      const slots = document.createElement("div"); slots.className = "slots";
+      [1,2,3,4,5,0].forEach(p => {
+        const b = document.createElement("button"); b.type = "button";
+        b.className = "slot" + (p === 0 ? " none" : "");
+        b.textContent = p === 0 ? "não achou" : p + "º";
+        b.setAttribute("aria-pressed", String(pos === p));
+        b.setAttribute("aria-label", "pergunta " + (i+1) + ": " + (p === 0 ? "não achou" : "posição " + p));
+        b.addEventListener("click", () => { simState[i] = p; renderSim(); });
+        slots.appendChild(b);
+      });
+      const rr = document.createElement("span"); rr.className = "rr";
+      rr.textContent = pos ? (pos === 1 ? "1" : "1/" + pos) : "0";
+      row.append(q, slots, rr); simRows.appendChild(row);
+    });
+    const n = simState.length;
+    const hit = k => simState.filter(p => p && p <= k).length;
+    const mrr = simState.reduce((s, p) => s + (p ? 1/p : 0), 0) / n;
+    const parts = simState.map(p => p ? (p === 1 ? "1" : "1/" + p) : "0").join(" + ");
+    simOut.innerHTML =
+      `<div class="m"><span>Hit@1</span><b>${hit(1)} / ${n}</b></div>` +
+      `<div class="m"><span>Hit@3</span><b>${hit(3)} / ${n}</b></div>` +
+      `<div class="m"><span>Hit@5</span><b>${hit(5)} / ${n}</b></div>` +
+      `<div class="m"><span>MRR</span><b>${fmt(mrr)}</b></div>` +
+      `<div class="formula">MRR = (${parts}) / ${n} = ${fmt(mrr)}</div>` +
+      `<p class="sub" style="font-size:.85rem">Repare que passar uma pergunta do 2º para o 1º não muda o Hit@5, mas sobe o MRR em ${fmt(0.5/n)}. Foi o que a C4 e a C5 fizeram.</p>`;
+  }
+  renderSim();
+
+  /* ---------- cadeia ---------- */
+  const CH = [
+    {id:"base", nome:"Linha de base", curto:"ponto de partida", mud:"densa (e5), chunk fixo 800/100, sem filtro, k = 5",
+     h5:50, fc:48, h1:32, h3:43, mrr:.618,
+     bom:[["note","Busca densa pura: embeddings da pergunta comparados aos dos chunks, sem saber datas nem público."],
+          ["minus","Mistura versões de políticas de datas diferentes: nas perguntas históricas traz a política atual."],
+          ["minus","Corta regras no meio: o chunk de 800 caracteres não respeita seções."]], q:""},
+    {id:"c1", nome:"C1 vigência", curto:"+ filtro de data", mud:"pré-filtro: só documentos vigentes na data da pergunta",
+     h5:52, fc:51, h1:38, h3:48, mrr:.699,
+     bom:[["","+2 perguntas no top-5 (q25 e q64)."],
+          ["","Históricas sobem: q47 e q49 vão da 5ª para a 1ª posição."],
+          ["","Hit@1 de 32 para 38: sem versões erradas, a certa sobe."],
+          ["note","É o que faz o assistente responder pela política da data do chamado."]], q:"entram: q25, q64"},
+    {id:"c2", nome:"C2 curadoria", curto:"+ público e versão", mud:"tira documentos de vendedor, institucionais e editoriais; corrige versões antigas",
+     h5:53, fc:53, h1:42, h3:50, mrr:.744,
+     bom:[["","+1 pergunta (q44) e fonte certa em todas as 53 acertadas."],
+          ["","Hit@1 de 38 para 42: 19% dos trechos da C1 eram de vendedor, institucional ou editorial. Saíram e liberaram vagas."],
+          ["note","Revogados ficaram: são a política de outra data (ver a variante ingênua)."]], q:"entra: q44"},
+    {id:"c3", nome:"C3 estrutura", curto:"+ chunk por seção", mud:"um chunk por seção (##/###), FAQ em blocos, cabeçalho [título | seção | público | vigência]",
+     h5:58, fc:58, h1:39, h3:53, mrr:.747,
+     bom:[["","Maior salto da cadeia: +6 e −1, saldo +5."],
+          ["","A regra não é mais cortada ao meio, e o cabeçalho dá ao trecho título, versão e vigência."],
+          ["","Tabelas ficam inteiras, com a frase que as introduz."],
+          ["minus","Hit@1 cai de 42 para 39: acerta mais, mas nem sempre em 1º."]], q:"entram: q12, q26, q37, q41, q48, q53 · sai: q64"},
+    {id:"c4", nome:"C4 híbrida", curto:"+ BM25 com RRF", mud:"BM25 (palavras exatas) + densa, fundidas por RRF (k = 60, 20 candidatos)",
+     h5:57, fc:57, h1:43, h3:55, mrr:.792,
+     bom:[["","MRR de 0,747 para 0,792 e Hit@1 de 39 para 43: as respostas sobem no ranking."],
+          ["","Acha códigos e termos exatos (\"COM 2026 007\"): q23 e q40 entram."],
+          ["","Põe trecho de fonte certa entre os 20 candidatos em 62 de 62 perguntas: prepara o re-ranking."],
+          ["minus","Hit@5 cai 1: sai q07, q44 e q62."]], q:"entram: q23, q40 · saem: q07, q44, q62"},
+    {id:"c5", nome:"C5 re-ranking", curto:"+ cross-encoder", mud:"cross-encoder reordena os 20 candidatos da híbrida e fica com 5", win:true,
+     h5:59, fc:59, h1:47, h3:52, mrr:.819,
+     bom:[["","Melhor de todas: 59 de 62, Hit@1 47, MRR 0,819 e precisão do contexto 0,78 no RAGAS."],
+          ["","Recupera q07, q51, q62 e q64."],
+          ["minus","Perde q39 e q40, e rebaixa tabelas markdown (q12, garantia)."],
+          ["note","Custo: cerca de 0,26 s por pergunta na CPU."]], q:"entram: q07, q51, q62, q64 · saem: q39, q40"}
+  ];
+  const chain = document.getElementById("chain"), detail = document.getElementById("detail");
+  let sel = 5;
+  function delta(a, b, d=0){ const v = a - b; const cls = v > 0 ? "up" : v < 0 ? "down" : "flat";
+    const s = d ? (v >= 0 ? "+" : "−") + fmt(Math.abs(v), d) : (v > 0 ? "+" : v < 0 ? "−" : "±") + Math.abs(v);
+    return `<em class="${cls}">${s}</em>`; }
+  function renderChain(){
+    chain.innerHTML = "";
+    CH.forEach((c, i) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip" + (c.win ? " win" : "");
+      b.setAttribute("aria-pressed", String(i === sel));
+      b.innerHTML = `${c.nome}<small>${c.curto}</small>`;
+      b.addEventListener("click", () => { sel = i; renderChain(); drawChart(); });
+      chain.appendChild(b);
+    });
+    const c = CH[sel], p = CH[Math.max(0, sel-1)], first = sel === 0;
+    detail.innerHTML = `<div><h3>${c.nome}</h3><p class="what">${c.mud}</p>
+      <ul class="goods">${c.bom.map(([k,t]) => `<li class="${k}">${t}</li>`).join("")}</ul>
+      ${c.q ? `<div class="qlist">${c.q}</div>` : ""}</div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <div class="mini">
+          <div><span>Hit@5</span><b>${c.h5}</b>${first ? "" : delta(c.h5, p.h5)}</div>
+          <div><span>Hit@1</span><b>${c.h1}</b>${first ? "" : delta(c.h1, p.h1)}</div>
+          <div><span>MRR</span><b>${fmt(c.mrr)}</b>${first ? "" : delta(c.mrr, p.mrr, 3)}</div>
+        </div>
+        <div class="mini">
+          <div><span>Hit@3</span><b>${c.h3}</b>${first ? "" : delta(c.h3, p.h3)}</div>
+          <div><span>Fonte certa</span><b>${c.fc}</b>${first ? "" : delta(c.fc, p.fc)}</div>
+          <div><span>Erra</span><b>${62 - c.h5}</b><em class="flat">de 62</em></div>
+        </div>
+        ${first ? `<p class="sub" style="font-size:.85rem">Variações aparecem a partir da C1, sempre contra o passo anterior.</p>` : `<p class="sub" style="font-size:.85rem">Variações em relação a ${p.nome}.</p>`}
+      </div>`;
+  }
+  const tb = document.getElementById("chainTable");
+  const maxv = k => Math.max(...CH.map(c => c[k]));
+  tb.innerHTML = CH.map((c, i) => `<tr class="${c.win ? "hl" : ""}"><td>${c.nome}</td><td class="txt">${c.mud}</td>
+    <td class="${c.h5 === maxv("h5") ? "best" : ""}">${c.h5}</td><td>${i ? (c.h5 - CH[i-1].h5 > 0 ? "+" : "") + (c.h5 - CH[i-1].h5) : ""}</td>
+    <td class="${c.fc === maxv("fc") ? "best" : ""}">${c.fc}</td><td class="${c.h1 === maxv("h1") ? "best" : ""}">${c.h1}</td>
+    <td class="${c.h3 === maxv("h3") ? "best" : ""}">${c.h3}</td><td class="${c.mrr === maxv("mrr") ? "best" : ""}">${fmt(c.mrr)}</td></tr>`).join("");
+
+  function drawChart(){
+    const svg = document.getElementById("chainChart"), W = 720, H = 260, L = 40, R = 46, T = 14, B = 40;
+    const iw = W - L - R, ih = H - T - B, gw = iw / CH.length, bw = Math.min(26, gw / 3.4);
+    const y = v => T + ih - (v / 62) * ih, y2 = v => T + ih - ((v - .5) / .4) * ih;  // MRR de 0,5 a 0,9
+    let s = "";
+    [0, 20, 40, 62].forEach(v => { s += `<line x1="${L}" x2="${W-R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)" stroke-width="1"/>
+      <text x="${L-6}" y="${y(v)+4}" text-anchor="end" font-size="11" fill="var(--muted)">${v}</text>`; });
+    [.5, .7, .9].forEach(v => { s += `<text x="${W-R+6}" y="${y2(v)+4}" font-size="11" fill="var(--good)">${fmt(v,1)}</text>`; });
+    const pts = [];
+    CH.forEach((c, i) => {
+      const cx = L + gw * i + gw / 2, on = i === sel;
+      s += `<rect x="${cx - bw - 2}" y="${y(c.h5)}" width="${bw}" height="${y(0) - y(c.h5)}" rx="3" fill="var(--p4)" opacity="${on ? 1 : .75}"/>`;
+      s += `<rect x="${cx + 2}" y="${y(c.h1)}" width="${bw}" height="${y(0) - y(c.h1)}" rx="3" fill="var(--accent)" opacity="${on ? 1 : .75}"/>`;
+      s += `<text x="${cx - bw/2 - 2}" y="${y(c.h5) - 5}" text-anchor="middle" font-size="11" fill="var(--ink)">${c.h5}</text>`;
+      s += `<text x="${cx + bw/2 + 2}" y="${y(c.h1) - 5}" text-anchor="middle" font-size="11" fill="var(--ink)">${c.h1}</text>`;
+      s += `<text x="${cx}" y="${H - B + 18}" text-anchor="middle" font-size="11.5" font-weight="${on ? 700 : 500}" fill="${on ? "var(--accent)" : "var(--muted)"}">${c.nome.replace("Linha de base", "Base").split(" ")[0]}</text>`;
+      pts.push([cx, y2(c.mrr), c.mrr, on]);
+    });
+    s += `<polyline points="${pts.map(p => p[0] + "," + p[1]).join(" ")}" fill="none" stroke="var(--good)" stroke-width="2"/>`;
+    pts.forEach(([x, yy, v, on]) => { s += `<circle cx="${x}" cy="${yy}" r="${on ? 5.5 : 4}" fill="var(--good)" stroke="var(--surface)" stroke-width="2"/>`;
+      if (on) s += `<text x="${x}" y="${yy - 10}" text-anchor="middle" font-size="11" font-weight="700" fill="var(--good)">${fmt(v)}</text>`; });
+    svg.innerHTML = s;
+  }
+  renderChain(); drawChart();
+
+  /* ---------- RAGAS ---------- */
+  const RG = [
+    ["linha de base", .898, .919, .581, .786, .924],
+    ["C3 final", .963, .968, .700, .930, .930],
+    ["C5 re-ranking", .865, .923, .784, .918, .918],
+    ["C5 + prompt novo", .869, .884, .784, .916, .916]];
+  const best = j => Math.max(...RG.map(r => r[j]));
+  document.getElementById("ragasTable").innerHTML = RG.map(r => `<tr class="${r[0] === "C5 re-ranking" ? "hl" : ""}"><td>${r[0]}</td>` +
+    [1,2,3,4,5].map(j => `<td class="${r[j] === best(j) ? "best" : ""}">${fmt(r[j])}</td>`).join("") + "</tr>").join("");
+
+  /* ---------- chamados por classe ---------- */
+  const CL = [
+    ["artigo_proibido", 30, 1, null, 0, 0, "g", "Sem prazo nem valor; desfecho sempre presente."],
+    ["devolucao_ressarcimento", 30, .933, .538, .133, .433, "b", "43% de abstenção sem precisar: a tabela de faixas não chegou ao contexto."],
+    ["divergente_defeito", 30, 1, 0, .033, .167, "b", "0 de 10: a tabela de garantia por categoria nunca foi recuperada."],
+    ["entrega", 30, .967, .759, .1, .133, "g", "Melhor parâmetro: os prazos da POL ENT 02 estão em prosa."],
+    ["falsificado", 30, 1, .556, .1, .2, "w", "Parâmetro no meio do caminho."],
+    ["fraude_vendedor", 30, 1, .667, .033, .067, "g", "Só 3 casos com parâmetro; desfecho sempre presente."],
+    ["outros", 20, .85, .4, 0, 1, "g", "Abstenção em 100%, como deveria: não há política para esses casos."]];
+  const pct = v => v === null ? "n/a" : fmt(v * 100, 1).replace(",0", "") + "%";
+  const bar = (v, cls) => v === null ? "n/a" : `<span class="bar">${pct(v)}<i class="${cls}" style="width:${Math.round(v*60)}px"></i></span>`;
+  document.getElementById("chTable").innerHTML = CL.map(r =>
+    `<tr><td class="mono">${r[0]}</td><td>${r[1]}</td><td>${bar(r[2], r[2] >= .95 ? "g" : "w")}</td>` +
+    `<td>${bar(r[3], r[3] === null ? "" : r[3] >= .7 ? "g" : r[3] >= .4 ? "w" : "b")}</td>` +
+    `<td>${bar(r[4], r[4] <= .05 ? "g" : "w")}</td><td>${bar(r[5], r[0] === "outros" ? "g" : r[5] > .3 ? "b" : "w")}</td>` +
+    `<td class="txt"><span class="pill ${r[6]}">${r[6] === "g" ? "ok" : r[6] === "w" ? "atenção" : "problema"}</span> ${r[7]}</td></tr>`).join("");
+
+  /* ---------- matriz ---------- */
+  const CFG = ["Base", "C1", "C2", "C3", "C4", "C5"];
+  const MX = `q01||5*|5*|2|2|1|1
+q02||2|2|1|2|1|1
+q05||2|2|1|1|1|1
+q07||2|1|1|2|·|3
+q08||1|2|2|1|1|1
+q10||1|1|1|1|1|2
+q29||3|1|1|1|1|1
+q12||·|·|·|1|1|5
+q13||3|1|1|1|2|1
+q17||4|4|3|2|1|3
+q20||2|1|1|1|1|1
+q21|h|1|1|1|2|2|5
+q22|h|2|2|1|1|1|1
+q23||·|·|·|·|3|1
+q24||1|2|2|2|2|1
+q25||·|1|1|1|1|1
+q26||·|·|·|2|3|4
+q32||5|5|4|3|2|2
+q33||2*|3|3|3|2|1
+q34||5|3|2|3|5|5
+q37||·|·|·|3|2|4
+q38||1|1|1|2|2|1
+q39||2|2|1|3|2|·
+q40||·|·|·|·|4|·
+q41||·|·|·|2|1|2
+q44||·|·|5|4|·|·
+q45||1|1|1|1|2|1
+q47|h|5|1|1|1|1|1
+q48|h|·|·|·|4|1|1
+q49|h|5|1|1|1|1|1
+q50||3|2|2|1|1|1
+q51||·|·|·|·|·|1
+q52||4|3|3|5|1|1
+q53||·|·|·|5|2|4
+q56||3|1|1|1|1|1
+q62||1|1|1|1|·|4
+q63||1|1|1|4|1|1
+q64||·|5|5|·|·|1`.split("\n").map(l => { const [id, h, ...v] = l.split("|"); return {id, h: h === "h", v}; })
+    .sort((a, b) => a.id.localeCompare(b.id, "pt", {numeric: true}));
+  document.getElementById("mxHead").innerHTML = `<th>pergunta</th>` + CFG.map(c => `<th>${c}</th>`).join("");
+  const miss = s => s === "·";
+  const FILT = {
+    all: () => true, hist: r => r.h, c5miss: r => miss(r.v[5]),
+    c3gain: r => miss(r.v[2]) && !miss(r.v[3]), c5gain: r => miss(r.v[4]) && !miss(r.v[5])};
+  function renderMx(f){
+    document.getElementById("mxBody").innerHTML = MX.filter(FILT[f]).map(r =>
+      `<tr><td class="id">${r.id}${r.h ? '<span class="hist">hist.</span>' : ""}</td>` + r.v.map(s => {
+        const wrong = s.endsWith("*"), n = parseInt(s, 10);
+        const cls = miss(s) ? "miss" : "p" + n;
+        return `<td class="${cls}${wrong ? " wrong" : ""}" title="${miss(s) ? "fora do top-5" : n + "º lugar" + (wrong ? ", fonte errada" : "")}">${s}</td>`;
+      }).join("") + "</tr>").join("");
+  }
+  document.querySelectorAll("#mxFilters button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll("#mxFilters button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    renderMx(b.dataset.f);
+  }));
+  renderMx("all");
+})();
+</script>
