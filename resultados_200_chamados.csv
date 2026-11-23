@@ -1,0 +1,1036 @@
+id,classe,tipo_cliente,data_abertura,docs,família no top-5,frase de abstenção,resposta,desfecho,parametro,inventou,abstencao
+R00144,artigo_proibido,padrao,2026-07-26,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Olá! Agradecemos por nos alertar sobre o ocorrido. 
+
+Informamos que a oferta de itens não permitidos e o envio de itens não listados no anúncio (como brindes ou envios conjuntos) são expressamente vedados na plataforma, sendo o vendedor integralmente responsável pelo conteúdo do pacote despachado (POL PRO 05). 
+
+Seu chamado e a denúncia do material recebido foram registrados e serão encaminhados para análise e apuração pela nossa equipe de atendimento e conformidade (POL PRO 05).",sim,na,nao,nao
+R00093,falsificado,padrao,2026-02-28,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu caso sobre a suspeita de produto falsificado será encaminhado para análise especializada da área de autenticidade (POL ATD 01, POL AUT 02). 
+
+Para dar andamento ao processo de investigação, é obrigatório enviar por meio dos canais oficiais: fotos da embalagem (com etiquetas e lacres), fotos do produto em diversos ângulos, fotos detalhadas dos elementos que motivam a suspeita de imitação (como o erro no nome) e a identificação do pedido (POL AUT 02). 
+
+O anúncio poderá ser suspenso preventivamente durante a análise (POL ATD 01).
+
+A questão do cheiro forte de plástico será analisada pela equipe de atendimento.",sim,na,nao,nao
+R00159,devolucao_ressarcimento,padrao,2026-07-29,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! Analisaremos o valor informado sobre o ressarcimento da sua devolução. 
+
+O ressarcimento aprovado retorna ao comprador pelo mesmo meio de pagamento utilizado na compra original (POL DEV 03). A política garante o direito ao ressarcimento proporcional ao valor pago, e a logística reversa por devolução não possui custo para o cliente (POL DEV 03). 
+
+Como a sua compra foi no valor de R$ 89,74 e você informou o recebimento de um valor inferior, a divergência no cálculo do seu crédito será analisada e ajustada diretamente pela nossa equipe de atendimento.",sim,sim,nao,nao
+R00118,falsificado,padrao,2026-04-26,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Sua denúncia de suspeita de falsificação foi recebida e encaminhada para a área de autenticidade para análise especializada (POL ATD 01).
+
+Para dar andamento à investigação, seu chamado deve conter obrigatoriamente:
+- Fotos da embalagem recebida (etiquetas e lacres);
+- Fotos do produto em diferentes ângulos;
+- Fotos dos elementos que motivaram a suspeita (como a folha fotocopiada);
+- Identificação do pedido (POL AUT 02).
+
+O prazo de análise será contado a partir do envio da documentação completa (POL AUT 02). Se confirmada a imitação, é devida a restituição do valor pago (POL AUT 02). Aguardamos o envio das fotos para dar sequência ao atendimento!",sim,nao,sim,nao
+R00174,devolucao_ressarcimento,padrao,2026-08-20,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! Para cancelar a compra por arrependimento, você deve abrir um chamado na central de atendimento da plataforma no prazo de até 7 dias corridos contados do recebimento do produto (POL DEV 03, Seção 1.2 e Perguntas Frequentes).
+
+Após a abertura, a plataforma fornecerá as instruções para a devolução do item ao vendedor via logística reversa, sem custo de frete para você (POL DEV 03, Seção 1.2 e Perguntas Frequentes). Vale ressaltar que prevalecem sempre as regras da plataforma sobre políticas informais do vendedor (POL DEV 03, Objetivo e Âmbito).
+
+Como a sua mensagem não informa a data em que o produto foi entregue, o status do seu prazo será confirmado pela equipe de atendimento.",sim,sim,nao,sim
+R00184,outros,premium,2026-07-03,"['pol-aut-02', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01']",,True,"Olá! Olá. Recebemos seu relato sobre a cobrança em duplicidade no valor de R$ 98,32 referente ao seu pedido do Kit de pincéis de maquiagem.
+
+Os documentos disponíveis não cobrem este caso de cobrança duplicada. Diante disso, seu chamado será encaminhado diretamente à equipe de atendimento para análise e tratamento do seu problema.",sim,sim,nao,sim
+R00140,artigo_proibido,padrao,2026-06-21,"['pol-atd-01', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos sua denúncia sobre a comercialização de item de venda não permitida. 
+
+Informamos que o seu chamado foi registrado e encaminhado para a área de conformidade, que é responsável por analisar o caso e aplicar os critérios necessários (POL ATD 01). A análise já está em curso (POL ATD 01).
+
+A confirmação sobre a permissão ou proibição do produto e o resultado da verificação serão analisados exclusivamente pela área de conformidade (POL ATD 01).
+
+Fonte: Manual de atendimento e resolução de chamados (POL ATD 01).",sim,na,nao,nao
+R00143,artigo_proibido,padrao,2026-02-21,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos alertar. A oferta de itens vedados na plataforma é expressamente proibida em qualquer anúncio, brinde ou envio conjunto (POL PRO 05, Seção 3). O vendedor é o integral responsável pelo conteúdo de seus anúncios e dos pacotes enviados (POL PRO 05, Seção 1.2).
+
+Sua denúncia será encaminhada para a nossa equipe de conformidade, que analisará o anúncio informado e aplicará o procedimento cabível (POL PRO 05, Preâmbulo e POL COM 02).",sim,na,nao,nao
+R00198,outros,padrao,2026-10-19,"['pol-atd-01', 'pol-pro-05', 'pol-atd-01', 'pol-dev-03', 'pol-atd-01']",,True,"Olá! 
+
+Os documentos disponíveis não cobrem este caso. A sua solicitação referente à alteração da forma de pagamento de boleto para cartão de crédito será encaminhada para a nossa equipe de atendimento para análise e suporte.",sim,na,nao,sim
+R00011,entrega,padrao,2026-03-23,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-ent-02']",1.0,False,"Olá! Caso o seu pedido esteja fora do prazo prometido, abriremos uma investigação com a transportadora para verificar o ocorrido (POL ATD 01). Para vendas de vendedores parceiros, o prazo de resposta com o resultado da apuração é de 7 dias úteis (POL ATD 01). Você receberá atualizações automáticas pelo sistema durante esse período (POL ENT 02). Se for confirmado atraso ou extravio, o valor do frete é reembolsado (POL ENT 02). 
+
+Sobre a impossibilidade de alterar o endereço de outro pedido pelo aplicativo, a questão será analisada pela nossa equipe de atendimento.",sim,sim,nao,nao
+R00064,fraude_vendedor,padrao,2026-02-14,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Obrigado por nos avisar. 
+
+Seu relato sobre a conduta do vendedor foi registrado. Como há suspeita de má-fé, seu caso será encaminhado à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento ao vendedor permanecerá totalmente retido e bloqueado, sem liberação antecipada (POL ATD 01). Caso a má-fé seja confirmada após a apuração, a conta do vendedor será suspensa imediatamente (POL DIS 04). 
+
+Reforçamos a importância de realizar pagamentos e comunicações exclusivamente dentro da nossa plataforma para a sua segurança (POL ATD 01). 
+
+Seu chamado seguirá em tratamento pela equipe responsável.",sim,na,nao,nao
+R00077,fraude_vendedor,padrao,2026-04-24,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Analisei o seu relato sobre a compra do Headset gamer HX-70 no valor de R$ 173,34.
+
+Como o seu caso envolve uma suspeita de conduta fraudulenta ou má-fé por parte do vendedor, o chamado é encaminhado diretamente à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante todo o período de apuração, o pagamento feito ao vendedor permanece totalmente retido, sem liberação parcial ou antecipada, até a emissão do parecer conclusivo da equipe de prevenção (POL ATD 01). 
+
+Caso a má-fé do vendedor seja confirmada ao final da investigação, a conta dele será suspensa imediatamente (POL DIS 04). Estamos acompanhando o processo para a devida resolução.",sim,sim,nao,nao
+R00141,artigo_proibido,premium,2026-07-22,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos alertar sobre o anúncio da loja Página Dez. 
+
+A Quantum Commerce proíbe expressamente a oferta ou envio de itens vedados, mesmo quando inclusos como brinde ou em envio conjunto (POL PRO 05). O vendedor é integralmente responsável pelo conteúdo de seus anúncios e pacotes (POL PRO 05).
+
+Sua solicitação de análise foi registrada e será encaminhada à nossa equipe de conformidade, que avaliará o anúncio para tomar as medidas cabíveis. Caso deseje consultar mais informações, o ponto referente ao procedimento de conformidade e aplicação de sanções será analisado pela equipe de atendimento de acordo com as diretrizes internas da plataforma.",sim,na,nao,nao
+R00199,outros,padrao,2026-06-27,"['rev-dev-v2', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01', 'pol-atd-01']",,True,"Olá!
+
+Os documentos disponíveis não cobrem este caso referente ao não abatimento do cupom de desconto na sua compra.
+
+Por esse motivo, a sua solicitação sobre o valor do desconto do cupom foi encaminhada para a nossa equipe de atendimento, que fará a análise detalhada do ocorrido e retornará o seu contato para lhe auxiliar com a resolução.",sim,na,nao,sim
+R00081,fraude_vendedor,premium,2026-05-12,"['pol-atd-01', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre suspeita de condutas de má-fé por parte do vendedor foi recebido e encaminhado à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento ao vendedor permanecerá totalmente retido e bloqueado na plataforma, sem qualquer liberação parcial ou antecipada até a emissão do parecer conclusivo (POL ATD 01).
+
+Caso você necessite de outras informações adicionais ou tenha dúvidas sobre os procedimentos da apuração, o andamento detalhado e as orientações serão analisados e informados diretamente pela equipe de atendimento responsável.",sim,na,nao,nao
+R00070,fraude_vendedor,padrao,2026-10-20,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de conduta fraudulenta do vendedor foi registrado e será encaminhado à área de prevenção para apuração formal, conforme procedimento da política de disputas (POL ATD 01, POL DIS 04). Durante a investigação, o pagamento ao vendedor permanecerá totalmente retido (POL ATD 01). 
+
+Sobre o pagamento adicional realizado fora do ambiente da plataforma, informamos que pagamentos feitos fora do site não possuem proteção nem reembolso em nenhuma hipótese (POL ATD 01). 
+
+A análise da conduta do vendedor e do envio do produto incorreto será concluída pela área de prevenção (POL ATD 01, POL DIS 04).",sim,na,nao,nao
+R00080,fraude_vendedor,premium,2026-01-20,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de conduta fraudulenta do vendedor foi registrado e encaminhado para a área de prevenção, que realizará a apuração formal do caso (POL ATD 01). 
+
+Durante toda a investigação, o pagamento ao vendedor permanecerá retido (POL ATD 01). Caso a má-fé seja confirmada, a conta dele será suspensa imediatamente (POL DIS 04).
+
+Sobre o pagamento adicional informado, ressaltamos que pagamentos realizados fora do ambiente da plataforma não possuem proteção nem reembolso em nenhuma hipótese (POL ATD 01). 
+
+O pedido de restituição dos valores e os demais pontos do caso serão analisados pela equipe de atendimento e prevenção (POL ATD 01).",sim,na,nao,nao
+R00165,devolucao_ressarcimento,padrao,2026-05-02,"['rev-dev-v2', 'rev-dev-v2', 'pol-clu-01', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Sua solicitação de devolução com estorno diretamente no cartão de crédito será mantida. 
+
+Conforme as regras da plataforma, o ressarcimento é realizado pelo mesmo meio de pagamento utilizado na compra original. O estorno via cupom só é aplicado caso haja o seu aceite expresso, e como você não aceita o cupom, o valor pago de R$ 190,62 retornará como estorno no cartão de crédito utilizado (POL DEV 03). O lançamento do crédito na fatura dependerá dos prazos da administradora do seu cartão (POL DEV 03).
+
+A sua reclamação quanto à demora no atendimento do chat foi registrada e será analisada pela equipe de atendimento.",sim,sim,nao,nao
+R00147,artigo_proibido,padrao,2026-08-04,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos reportar essa situação. 
+
+O anúncio denunciado por ofertar item de venda não permitida será analisado e estará sujeito à remoção imediata, sem aviso prévio (POL PRO 05). Em caso de reincidência do vendedor, a plataforma aplicará a suspensão da conta conforme o procedimento de conformidade (POL PRO 05).
+
+A análise detalhada sobre a conduta do vendedor e a verificação do anúncio específico informado no chamado serão finalizadas e tratadas diretamente pela nossa equipe de atendimento.",sim,na,nao,nao
+R00161,devolucao_ressarcimento,padrao,2026-05-03,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e continuidade do atendimento.,sim,nao,nao,sim
+R00009,entrega,padrao,2026-03-17,"['pol-atd-01', 'rev-dev-v2', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01']",0.0,True,"Olá! Agradecemos o seu contato.
+
+Primeiramente, verificaremos o rastreio e o prazo de entrega prometido no anúncio antes de qualquer outra ação (POL ATD 01). Se o pedido ainda estiver dentro do prazo, você receberá a orientação para acompanhamento. Caso já esteja fora do prazo, abriremos uma investigação com a transportadora, com prazo de resposta de 7 dias úteis para vendedores parceiros ou 3 dias úteis para lojas oficiais (POL ATD 01).
+
+Sobre a ausência de um dos volumes no pacote recebido, os documentos disponíveis não cobrem este caso de item faltante. Portanto, esta questão específica será analisada pela equipe de atendimento.",sim,nao,nao,sim
+R00190,outros,padrao,2026-06-12,"['pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01']",,False,"Olá! Recebemos sua mensagem sobre o suporte para a garantia estendida do seu produto.
+
+Como os documentos disponíveis não cobrem procedimentos para acionamento ou contato referente a garantia estendida, o seu chamado será encaminhado diretamente à nossa equipe de atendimento para análise e retorno.
+
+Se precisar de ajuda com outro assunto, permanecemos à disposição.",sim,na,nao,sim
+R00078,fraude_vendedor,padrao,2026-05-28,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá!
+
+Seu caso será encaminhado para a área de prevenção, que realizará uma apuração formal referente à suspeita de conduta fraudulenta ou má-fé por parte do vendedor (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento referente à compra do seu livro ficará retido na plataforma, sem liberação ao vendedor (POL ATD 01). Além disso, a plataforma lembra que pagamentos realizados fora do ambiente da plataforma não possuem proteção ou reembolso sob nenhuma hipótese (POL ATD 01).
+
+Acompanharemos o andamento do processo para garantir a análise adequada da situação.
+
+Fonte: Manual de atendimento e resolução de chamados (POL ATD 01).",sim,na,nao,nao
+R00082,fraude_vendedor,padrao,2026-05-27,"['pol-atd-01', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Recebemos a sua solicitação sobre a conduta do vendedor.
+
+Seu chamado foi registrado e será encaminhado para a área de prevenção, que realizará a apuração formal do caso (POL ATD 01). Como medida preventiva, o pagamento devido ao vendedor permanecerá totalmente retido e bloqueado durante toda a investigação, sem liberação até a emissão do parecer conclusivo (POL ATD 01). 
+
+Lembramos que pagamentos eventualmente realizados fora da plataforma não possuem proteção nem reembolso em nenhuma hipótese (POL ATD 01). O andamento e os desdobramentos da apuração sobre a conduta do vendedor serão analisados e acompanhados diretamente pela equipe de atendimento.",sim,sim,sim,nao
+R00114,falsificado,padrao,2026-07-07,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu relato sobre a suspeita de imitação do produto foi recebido. 
+
+Seu chamado será encaminhado para a área de autenticidade para análise especializada (POL ATD 01). Para dar andamento ao processo de verificação, é necessário que o chamado contenha fotos da embalagem (etiquetas e lacres), fotos do produto em diversos ângulos e imagens dos detalhes que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Com relação ao anúncio continuar no ar, ele poderá ser suspenso preventivamente enquanto a análise estiver em curso, a critério exclusivo da área de autenticidade (POL ATD 01). 
+
+A análise completa e as providências operacionais serão acompanhadas pela equipe de atendimento.",sim,na,nao,nao
+R00008,entrega,padrao,2026-03-19,"['pol-ent-02', 'rev-dev-v2', 'pol-ent-02', 'pol-ent-02', 'rev-dev-v2']",1.0,False,"Olá! Analisaremos o seu caso referente ao atraso na entrega do Patinete infantil dobrável.
+
+Abriremos uma investigação sobre o atraso da sua encomenda e o repasse ao vendedor será retido durante a apuração (POL ENT 02). A transportadora tem um prazo de até 7 dias úteis para concluir a investigação e apresentar a comprovação (POL ENT 02). Caso o atraso seja confirmado, o valor do frete será reembolsado independentemente se você optar pelo reenvio do produto ou pelo reembolso integral (POL ENT 02). Você receberá atualizações automáticas pelo sistema.
+
+Fontes: Política de entregas e prazos (POL ENT 02).",sim,sim,nao,nao
+R00183,outros,padrao,2026-04-28,"['pol-atd-01', 'pol-ent-02', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01']",,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise.,sim,na,nao,sim
+R00128,artigo_proibido,premium,2026-03-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! A oferta de itens não permitidos é expressamente vedada na plataforma em qualquer circunstância (POL PRO 05, Seção 1.1). Essa regra se aplica rigorosamente mesmo a itens incluídos como brinde ou enviados em conjunto com o produto principal (POL PRO 05, Seção 2.2). 
+
+Seu reporte foi recebido e a denúncia sobre o produto será analisada e tratada pela nossa equipe de atendimento para que as devidas providências sejam tomadas junto ao anúncio e ao vendedor.",sim,na,nao,nao
+R00133,artigo_proibido,padrao,2026-07-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos alertar sobre essa situação. 
+
+A oferta de itens vedados é expressamente proibida na plataforma, seja no anúncio, como brinde ou em envio conjunto, o que inclui cosméticos e maquiagens sem registro sanitário ou sem procedência comprovada (POL PRO 05).
+
+Sua denúncia sobre a inclusão de item proibido junto à paleta de sombras foi recebida e o caso será encaminhado para análise da nossa equipe de conformidade, que verificará o anúncio e aplicará os procedimentos cabíveis (POL PRO 05).",sim,na,nao,nao
+R00125,artigo_proibido,premium,2026-04-16,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos sua denúncia sobre a inclusão de um item adicional não permitido na oferta. 
+
+A plataforma proíbe a oferta de itens vedados, incluindo produtos adicionais, brindes declarados ou enviados em conjunto no pacote, sendo o vendedor integralmente responsável pelo conteúdo anunciado e despachado (POL PRO 05). 
+
+Seu relato sobre a presença de item proibido na compra foi registrado e será encaminhado para a nossa equipe de atendimento e conformidade para análise do anúncio e providências aplicáveis (POL PRO 05).",sim,na,nao,nao
+R00138,artigo_proibido,padrao,2026-05-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Analisamos a sua denúncia sobre a inclusão de um item de venda não permitida junto ao anúncio. 
+
+Informamos que anúncios que ofereçam itens vedados pela plataforma são removidos imediatamente, e a reincidência por parte do vendedor acarreta a sua suspensão (POL PRO 05, item 5.1).
+
+As providências cabíveis em relação ao anúncio e à conduta do vendedor já estão sendo analisadas pela nossa equipe de conformidade de atendimento para a aplicação das sanções previstas (POL PRO 05).
+
+Agradecemos o seu contato e a sua colaboração para manter o ambiente do marketplace seguro.",sim,na,nao,nao
+R00193,outros,padrao,2026-04-24,"['pol-aut-02', 'pol-atd-01', 'pol-clu-01', 'pol-atd-01', 'rev-dev-v2']",,True,Olá! Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e suporte adequados. (POL ATD 01),sim,na,nao,sim
+R00085,fraude_vendedor,premium,2026-09-25,"['pol-atd-01', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01', 'pol-dis-04']",1.0,False,"Olá! Olá. Seu caso sobre a suspeita de conduta fraudulenta/má-fé do vendedor será encaminhado para a área de prevenção para apuração formal, e o pagamento ao vendedor ficará totalmente retido durante a investigação, sem liberação antecipada (POL ATD 01).
+
+O procedimento detalhado dessa apuração segue o disposto na política de disputas (POL DIS 04). Os documentos disponíveis não informam o prazo exato para a conclusão dessa apuração, motivo pelo qual este ponto específico será analisado e informado diretamente pela equipe de atendimento responsável pelo caso.",sim,na,nao,sim
+R00094,falsificado,premium,2026-05-19,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Recebemos a sua denúncia sobre a suspeita de produto falso na compra dos Blocos de Montar. 
+
+O seu caso será analisado pela área de autenticidade da plataforma. Para que a investigação avance, é necessário apresentar fotos da embalagem (com etiquetas e lacres), fotos do produto e imagens detalhadas dos elementos que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Como os documentos não informam o prazo exato de conclusão da análise, essa definição será tratada e analisada pela equipe de atendimento durante o acompanhamento do seu chamado (POL AUT 02).",sim,nao,nao,sim
+R00038,divergente_defeito,padrao,2026-07-08,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-atd-01', 'pol-gar-01']",1.0,False,"Olá! Para dar andamento ao seu caso de produto com defeito/divergência, é necessário anexar fotos do item recebido no chamado, pois a ausência de documentação fotográfica suspende a análise até o envio (POL ATD 01). 
+
+Assim que as evidências forem enviadas e a divergência ou defeito for confirmada pela área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01). 
+
+A análise da sua solicitação será realizada pela plataforma com base nas informações e fotografias fornecidas, e a decisão final será comunicada diretamente por este canal de atendimento (POL DEV 03, versão 3).",sim,nao,nao,nao
+R00163,devolucao_ressarcimento,padrao,2026-03-19,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Analisaremos o seu caso para verificar o motivo da divergência e providenciar o envio do valor restante do ressarcimento do seu livro. 
+
+Pela nossa política, o ressarcimento aprovado pela plataforma deve retornar ao comprador pelo mesmo meio de pagamento e no valor total equivalente à compra (POL DEV 03, v2). Para o plano padrão, em compras de R$ 53,85, o valor integral deve ser ressarcido, sem retenções injustificadas (POL DEV 03, v2).
+
+Como o ressarcimento efetuado veio com valor inferior ao total pago de R$ 53,85, este ponto específico será analisado detalhadamente pela nossa equipe de atendimento para realizar a devida correção e liberação da diferença.",sim,sim,nao,nao
+R00087,fraude_vendedor,padrao,2026-09-06,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de conduta fraudulenta do vendedor foi registrado e será encaminhado para a área de prevenção para apuração formal (POL ATD 01). 
+
+Durante toda a investigação, o pagamento ao vendedor fica totalmente retido, sem liberação antecipada, até a emissão do parecer conclusivo (POL ATD 01). Caso a má-fé seja confirmada pela área de prevenção, a conta do vendedor será suspensa imediatamente (POL DIS 04).
+
+Lembramos também que a plataforma recomenda que os pagamentos sejam feitos exclusivamente pelo ambiente oficial, pois transações fora da plataforma não possuem proteção ou reembolso (POL ATD 01).",sim,na,nao,nao
+R00192,outros,padrao,2026-08-01,"['pol-aut-02', 'pol-atd-01', 'pol-atd-01', 'pol-pro-05', 'pol-atd-01']",,True,"Olá! 
+
+Identifiquei que a sua dúvida é sobre a solicitação e emissão da segunda via da nota fiscal do seu produto.
+
+Os documentos disponíveis não cobrem este caso. Por essa razão, estou encaminhando a sua solicitação diretamente para a nossa equipe especialista de atendimento, que analisará o seu pedido e retornará com as orientações necessárias.",sim,na,nao,sim
+R00120,falsificado,premium,2026-01-29,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Lamento por essa situação com a sua maquiagem.
+
+Seu caso será encaminhado para a área de autenticidade para análise especializada (POL ATD 01). Como compromisso da plataforma, todo produto anunciado como original deve ser autêntico (POL AUT 02). 
+
+Se a falsificação for confirmada, o procedimento prevê o reembolso integral da totalidade do valor pago pela compra (POL AUT 02). Além disso, durante a verificação, o anúncio do item poderá ser suspenso preventivamente pela equipe responsável (POL ATD 01).",sim,sim,nao,nao
+R00029,entrega,padrao,2026-07-16,"['pol-atd-01', 'pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01']",1.0,False,"Olá! Para o seu pedido de compra do produto Jogo de tabuleiro Ilha do Tesouro, estamos tomando as seguintes providências:
+
+Primeiro, vamos verificar o código de rastreio e o prazo prometido no anúncio (POL ATD 01). Se o pedido ainda estiver dentro do prazo prometido, orientaremos o acompanhamento do rastreamento. Caso o prazo prometido já tenha expirado, abriremos uma investigação com a transportadora, com prazo de resposta de 7 dias úteis para vendedores parceiros ou 3 dias úteis para lojas oficiais (POL ATD 01).
+
+A questão do envio incompleto informada sobre o vendedor será analisada pela equipe de atendimento e encaminhada para a área responsável.",sim,sim,nao,nao
+R00032,divergente_defeito,padrao,2026-09-28,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Olhando os dados da sua compra, você pode escolher entre a troca do produto pelo mesmo modelo ou a devolução com reembolso integral (POL DEV 03). Para prosseguirmos com a análise da sua solicitação por defeito, é indispensável que você anexe fotos do item recebido ao chamado (POL ATD 01, POL DEV 03).
+
+Em relação à ausência de resposta do vendedor e ao atraso de uma semana na entrega, os detalhes foram registrados e esses pontos serão analisados e respondidos pela nossa equipe de atendimento.",sim,na,nao,nao
+R00113,falsificado,padrao,2026-05-18,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de imitação na compra da maquiagem foi registrado e encaminhado para a nossa área de autenticidade (POL AUT 02). 
+
+A equipe analisará as fotos da embalagem, do produto e dos detalhes que motivaram a suspeita (POL AUT 02). A análise das evidências leva até 5 dias úteis, contados a partir da data em que a documentação completa estiver disponível no chamado (POL AUT 02). Se confirmada a irregularidade, você poderá ter direito ao reembolso integral conforme as regras vigentes (POL AUT 02).
+
+A conclusão da investigação e a viabilidade da devolução do produto serão analisadas e informadas pela equipe de atendimento (POL AUT 02).",sim,sim,nao,nao
+R00101,falsificado,premium,2026-08-17,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Sua denúncia sobre suspeita de imitação foi registrada e será analisada pela nossa área de autenticidade (POL AUT 02). 
+
+Para prosseguir com a investigação, o chamado precisa conter fotos da embalagem (com etiquetas e lacres), fotos do produto e das evidências da suspeita, além da identificação do pedido (POL AUT 02).
+
+Após o envio da documentação completa, a área de autenticidade analisará o caso no prazo de até 5 dias úteis (POL AUT 02). Se a imitação for confirmada, você terá direito ao reembolso integral do valor da transação (POL AUT 02). O restante da análise será concluído pela equipe de atendimento.",sim,sim,nao,nao
+R00004,entrega,padrao,2026-02-27,"['rev-dev-v2', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! 
+
+Identificamos a situação da sua entrega. Para este tipo de ocorrência, abrimos uma investigação com a transportadora para apurar o caso. O prazo de resposta para o seu chamado é de 7 dias úteis (para vendedores parceiros) ou 3 dias úteis (para lojas oficiais) (POL ATD 01). 
+
+Sobre o seu pedido de devolução da quantia paga pelo transporte, informamos que o valor do frete é reembolsado caso o atraso/falha na entrega seja confirmado (POL ENT 02). 
+
+A análise completa do retorno do produto ao vendedor e a viabilização do seu reembolso do frete serão finalizadas e tratadas diretamente pela nossa equipe de atendimento ao término da verificação.",sim,sim,nao,nao
+R00054,divergente_defeito,premium,2026-08-11,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Para prosseguir com a análise do seu caso de defeito no livro, é necessário anexar fotos do item recebido ao chamado (POL ATD 01).
+
+O prazo para solicitar a troca ou devolução por defeito segue a tabela de garantia por categoria (POL DEV 03, POL GAR 01). No entanto, o prazo específico para a categoria **livro** não está presente nos documentos disponíveis. 
+
+Seu chamado será encaminhado à equipe de atendimento, que analisará o prazo aplicável à sua categoria e dará andamento à solicitação de substituição (POL ATD 01).",sim,nao,nao,sim
+R00065,fraude_vendedor,padrao,2026-06-24,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a suspeita de conduta de má-fé por parte do vendedor foi recebido (POL ATD 01). 
+
+Seu caso será encaminhado para a área de prevenção, que realizará uma apuração formal conforme os procedimentos estabelecidos (POL ATD 01, POL DIS 04). Durante toda a investigação, o pagamento realizado ao vendedor permanecerá totalmente retido e bloqueado na plataforma, sem liberação de valores até a emissão do parecer conclusivo (POL ATD 01). Se a má-fé for confirmada, a conta do vendedor será suspensa imediatamente (POL DIS 04).
+
+Sobre como funciona a resolução financeira do seu pagamento neste caso específico, este ponto será analisado e informado pela equipe de atendimento.",sim,na,nao,nao
+R00104,falsificado,padrao,2026-09-22,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a suspeita de item não autêntico será encaminhado para a área especializada em autenticidade para análise (POL ATD 01). 
+
+Para dar andamento à investigação, você deve fornecer pelo canal oficial: fotos da embalagem (com etiquetas e lacres), fotos do livro em diferentes ângulos, fotos das evidências da suspeita (como a qualidade do papel e detalhes incompatíveis) e a identificação do pedido (POL AUT 02). 
+
+Se os documentos estiverem completos, a análise será iniciada e o anúncio do vendedor poderá ser suspenso preventivamente enquanto o caso é verificado (POL ATD 01).",sim,na,nao,nao
+R00042,divergente_defeito,padrao,2026-04-02,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para darmos andamento ao seu caso de defeito no produto, você precisa anexar fotos do item recebido (POL ATD 01). Após o envio da documentação fotográfica, confirmada a divergência ou defeito, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso integral (POL DEV 03).
+
+Como os trechos fornecidos não contêm a tabela da POL GAR 01 com o prazo de garantia limite para a categoria maquiagem, esse ponto específico sobre a validade do seu prazo de solicitação será analisado diretamente pela equipe de atendimento para onde seu chamado será encaminhado.",sim,nao,sim,sim
+R00107,falsificado,padrao,2026-06-08,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Sua denúncia sobre a autenticidade do livro foi registrada e será analisada pela área de autenticidade (POL AUT 02). 
+
+Caso a imitação seja confirmada pela equipe responsável, você receberá o reembolso integral do valor pago na transação (POL AUT 02). 
+
+Se a plataforma avaliar que a devolução física do livro é inviável por motivos logísticos ou de preservação, o reembolso integral será processado sem a necessidade de devolução do produto (POL AUT 02). Além disso, confirmada a infração, o valor do reembolso não ficará sujeito aos limites de teto por faixa de valor de devoluções convencionais (POL AUT 02).",sim,sim,nao,nao
+R00178,devolucao_ressarcimento,padrao,2026-05-07,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Vamos ajudar você com a devolução do livro ""Guia prático de horta urbana"". 
+
+Como o aplicativo está apresentando falha ao gerar a etiqueta de postagem sem custo para o envio (POL DEV 03), o seu caso e esse problema técnico no app serão analisados pela nossa equipe de atendimento para que a etiqueta seja disponibilizada corretamente.
+
+Por favor, mantenha o item guardado enquanto a nossa equipe realiza essa verificação e envia as instruções atualizadas para o envio.
+
+Fonte: (POL DEV 03).",sim,na,nao,nao
+R00164,devolucao_ressarcimento,padrao,2026-04-05,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para iniciar o processo de desistência da compra do brinquedo (R$ 69,83), você deve solicitar a devolução dentro do prazo de 7 dias corridos contados a partir do recebimento do produto, registrando a opção de desistência diretamente em seu chamado (POL DEV 03, versão 2, Seção 1.2 e FAQ parte 1). 
+
+Após esse registro, a plataforma enviará as instruções e a etiqueta de logística reversa para a devolução do item ao vendedor, sem nenhum custo de frete para você (POL DEV 03, versão 2, Seção 1.2 e FAQ parte 1). O ressarcimento será efetuado pelo mesmo meio de pagamento utilizado na compra original (POL DEV 03, versão 2, FAQ parte 1).",sim,sim,sim,nao
+R00100,falsificado,padrao,2026-09-16,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de imitação foi registrado. Para que o processo tenha prosseguimento, seu caso será analisado pela equipe de atendimento (Área de Autenticidade) assim que a documentação necessária estiver completa (POL AUT 02). 
+
+Para dar andamento, você deve anexar ao chamado os seguintes itens obrigatórios:
+- Fotos da embalagem recebida (com etiquetas e lacres);
+- Fotos do produto em múltiplos ângulos;
+- Fotos detalhadas dos elementos que motivaram a suspeita (como acabamentos ou logotipos) (POL AUT 02).
+
+O envio do local para upload das imagens e a informação sobre a concessão do reembolso integral serão analisados e informados pela equipe de atendimento.",sim,nao,nao,nao
+R00003,entrega,padrao,2026-02-16,"['rev-dev-v2', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-ent-02']",1.0,False,"Olá! Olhei o seu caso e cuidaremos da sua solicitação referente ao atraso na entrega. 
+
+O seu chamado será encaminhado para a equipe de atendimento analisar e explicar o status do envio. 
+
+Caso o atraso seja confirmado pela plataforma, informamos que o valor do frete é reembolsado a você, independentemente do desfecho escolhido (seja no reenvio do produto ou no reembolso integral) (POL ENT 02). Se for necessário abrir uma investigação formal sobre o paradeiro da encomenda, a verificação com a transportadora tem um prazo de até 7 dias úteis (POL ENT 02).",sim,sim,nao,nao
+R00086,fraude_vendedor,premium,2026-02-02,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Registramos seu chamado sobre a suspeita de conduta do vendedor. 
+
+Seu caso foi encaminhado para a área de prevenção para apuração formal, conforme previsto na POL ATD 01. Durante toda a apuração, o pagamento ao vendedor fica retido (POL ATD 01). Se a má-fé for confirmada, a conta do vendedor será suspensa imediatamente (POL DIS 04).
+
+Quanto ao seu pedido de reembolso integral, este ponto será analisado pela equipe de atendimento e pela área responsável após a apuração do caso.",sim,na,nao,nao
+R00063,fraude_vendedor,padrao,2026-07-15,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Sentimos muito por essa situação. 
+
+Seu chamado sobre a suspeita de má-fé e fraude do vendedor foi recebido e encaminhado diretamente para a área de prevenção para apuração formal (POL ATD 01). 
+
+Durante toda a investigação, o pagamento realizado ao vendedor fica totalmente retido e bloqueado, sem qualquer liberação parcial ou antecipada, até que a área responsável emita o parecer conclusivo (POL ATD 01). Se a má-fé do vendedor for confirmada ao final da análise, a conta dele é suspensa imediatamente (POL DIS 04).
+
+Fontes: Manual de atendimento e resolução de chamados (POL ATD 01) e Procedimento de disputa e prevenção (POL DIS 04).",sim,na,nao,nao
+R00155,devolucao_ressarcimento,padrao,2026-03-03,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Olhei os seus dados e informo que você não é obrigado a aceitar o cupom. 
+
+Como a sua compra no valor de R$ 47,83 foi paga via cartão de crédito ou débito, a restituição será processada como estorno no próprio cartão utilizado na transação original (POL DEV 03).
+
+O prazo para que o valor seja creditado e apareça em seu extrato ou fatura depende da sua instituição financeira e das regras da operadora do cartão (POL DEV 03).
+
+Seu chamado seguirá em atendimento para a conclusão do estorno diretamente no seu cartão (POL DEV 03). Se você for assinante do Clube Q+, saiba que as condições de teto de ressarcimento são diferenciadas (POL DEV 03).",sim,sim,nao,nao
+R00015,entrega,padrao,2026-02-10,"['rev-dev-v2', 'pol-ent-02', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a entrega do produto foi registrado e está em análise (POL ATD 01). 
+
+Para averiguar a falha no envio, será iniciada uma investigação com a transportadora. O prazo de resposta para este acompanhamento é de 7 dias úteis para vendedores parceiros ou de 3 dias úteis caso a compra tenha sido feita em uma loja oficial (POL ATD 01).
+
+Sobre a sua dúvida sobre o prazo de entrega específico para a sua cidade, informamos que os documentos disponíveis não trazem essa regra ou tabela regional. Por isso, este ponto específico será analisado e respondido diretamente pela nossa equipe de atendimento.",sim,sim,nao,sim
+R00017,entrega,padrao,2026-05-07,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-atd-01']",1.0,False,"Olá! Lamentamos o transtorno com o seu pedido.
+
+Como o produto não foi entregue no prazo prometido, informamos que abrimos uma investigação formal com a transportadora para verificar o ocorrido (POL ATD 01, Seção 2.3). 
+
+Se a compra tiver sido realizada com um vendedor parceiro, o prazo para retorno com uma resposta final é de 7 dias úteis. Caso a venda seja de uma loja oficial, o prazo de resposta é de 3 dias úteis (POL ATD 01, Seção 2.3; POL ENT 02). 
+
+Durante este período de apuração, você receberá atualizações sobre o andamento do seu caso (POL ATD 01, Seção 2.3).",sim,sim,nao,nao
+R00171,devolucao_ressarcimento,padrao,2026-06-14,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Analisamos a sua solicitação sobre a devolução da luminária e o reembolso do valor.
+
+Para devoluções por desistência ou arrependimento (quando o produto não atende às suas necessidades), o prazo para abertura do chamado é de 7 dias corridos após o recebimento (POL DEV 03, Seção 1.2). Como a compra foi realizada há 21 dias, esse prazo expirou.
+
+Caso o produto apresente algum defeito de fabricação ou funcionamento, seu chamado será analisado pela equipe de atendimento para verificar se há prazo de garantia aplicável conforme a categoria do item (POL DEV 03, FAQ parte 2 / POL GAR 01).",sim,sim,nao,nao
+R00006,entrega,premium,2026-03-10,"['pol-ent-02', 'pol-atd-01', 'pol-ent-02', 'rev-dev-v2', 'pol-ent-02']",1.0,False,"Olá! Para posicionarmos você oficialmente sobre o pacote da mochila com atraso, daremos início à investigação formal junto à transportadora responsável (POL ENT 02).
+
+A transportadora tem o prazo de até 7 dias úteis para responder e apresentar o posicionamento final sobre o envio (POL ENT 02). Durante esse período, você receberá atualizações automáticas sobre o andamento diretamente no sistema da plataforma, sem a necessidade de novos contatos no canal (POL ENT 02). 
+
+Caso seja confirmada a perda ou extravio do produto ao final da apuração, o valor do frete será reembolsado a você (POL ENT 02).",sim,sim,sim,nao
+R00083,fraude_vendedor,padrao,2026-05-18,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Lamento pelo ocorrido. Como o seu relato indica suspeita de conduta fraudulenta por parte do vendedor, o seu chamado será encaminhado diretamente à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento ao vendedor permanecerá retido (POL ATD 01). Caso a área de prevenção confirme a má-fé, a conta do vendedor será suspensa imediatamente (POL DIS 04).
+
+Se o pagamento tiver sido realizado por fora da plataforma, não há proteção nem reembolso em nenhuma hipótese (POL ATD 01). A apuração do caso e a verificação do seu reembolso serão analisadas e tratadas pela equipe de atendimento e prevenção.",sim,na,nao,nao
+R00166,devolucao_ressarcimento,padrao,2026-03-06,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Sobre o seu pedido de devolução, você receberá a etiqueta ou as instruções para envio do produto sem custo de frete (POL DEV 03). Como o valor da sua compra é de R$ 110,60 (faixa de R$ 100,01 a R$ 500,00), o reembolso total será processado pelo mesmo meio de pagamento utilizado na compra original assim que o retorno do item for confirmado (POL DEV 03).
+
+O motivo do atraso no agendamento da coleta da sua cafeteira será analisado diretamente pela nossa equipe de atendimento para concluir o seu processo o mais rápido possível.",sim,sim,sim,nao
+R00149,artigo_proibido,padrao,2026-05-12,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Recebemos o seu relato e confirmamos o registro formal do seu chamado. 
+
+Informamos que a verificação sobre itens de venda não permitida é realizada exclusivamente pela nossa área de conformidade, seguindo as diretrizes e regras aplicáveis (POL PRO 05, POL ATD 01).
+
+A área de atendimento registra, encaminha e informa que a análise do seu caso já está em curso (POL ATD 01). O envio de itens não listados no anúncio, como brindes ou envios conjuntos, também passa por essa avaliação (POL PRO 05).
+
+A análise do seu chamado prosseguirá e será finalizada pela equipe técnica responsável (POL ATD 01).",sim,na,nao,nao
+R00061,fraude_vendedor,padrao,2026-02-20,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu relato sobre a suspeita de conduta fraudulenta do vendedor foi registrado. 
+
+O caso será encaminhado para a área de prevenção, que fará a apuração formal do ocorrido (POL ATD 01). Durante todo o período de investigação, o pagamento ao vendedor ficará retido até a emissão do parecer conclusivo (POL ATD 01). Se a má-fé do vendedor for confirmada, a conta dele será suspensa imediatamente (POL DIS 04).
+
+Ressaltamos que a análise segue os procedimentos oficiais da plataforma. O ponto relativo ao ressarcimento ou devolução do valor pago será analisado pela equipe de atendimento responsável.
+
+Fontes: (POL ATD 01) e (POL DIS 04).",sim,na,nao,nao
+R00019,entrega,padrao,2026-03-26,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01']",1.0,False,"Olá! Vamos verificar a situação do seu pedido da Cadeira gamer ErgoMax.
+
+Primeiramente, faremos a verificação inicial do rastreio e do prazo prometido no anúncio (POL ATD 01). Se o pedido ainda estiver dentro do prazo prometido, orientaremos o acompanhamento do rastreio. Caso o prazo prometido já tenha expirado, abriremos uma investigação com a transportadora, cujo prazo de resposta é de 7 dias úteis para vendedores parceiros ou 3 dias úteis para lojas oficiais (POL ATD 01). 
+
+Se for confirmado o extravio do volume faltante ao final da apuração, você poderá escolher pelo reembolso integral ou pelo reenvio do produto (POL ENT 02).",sim,sim,nao,nao
+R00146,artigo_proibido,padrao,2026-06-25,"['pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Seu chamado sobre item de venda não permitida foi recebido e encaminhado diretamente para a nossa área de conformidade (POL ATD 01). 
+
+A análise do caso está em curso para verificar o enquadramento e a conformidade do item recebido com as nossas diretrizes de comercialização (POL ATD 01, POL PRO 05). 
+
+Ressaltamos que a área de atendimento não possui competência para deliberar sobre a permissão ou proibição de itens, decisão que cabe exclusivamente à área de conformidade (POL ATD 01).
+
+Assim que a análise for concluída pela equipe especializada, você receberá o retorno com a resolução do seu caso (POL ATD 01).",sim,na,nao,nao
+R00119,falsificado,padrao,2026-09-10,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de imitação foi recebido e será encaminhado para a análise da área de autenticidade (POL AUT 02). 
+
+Se a falsificação for confirmada pelo setor responsável, você receberá o reembolso integral do valor pago na transação, sem a incidência do teto por faixa estabelecido para devoluções comuns (POL AUT 02). Para prosseguir com essa investigação, solicitamos que nos envie fotos da embalagem (com etiquetas e lacres), fotos do produto e das diferenças visuais/detalhes que motivaram a suspeita, além do número do pedido (POL AUT 02).
+
+A verificação do anúncio e a avaliação da devolução do item serão analisadas pela equipe de atendimento (POL AUT 02).",sim,sim,nao,nao
+R00050,divergente_defeito,padrao,2026-04-06,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-atd-01']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto divergente das especificações do anúncio, é necessário que você anexe fotos do item recebido no chamado. O envio dessa documentação fotográfica é condição obrigatória para a análise e o prosseguimento da solicitação, ficando o chamado suspenso até o recebimento do material (POL ATD 01). 
+
+Após a confirmação da divergência pela área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01).
+
+O ponto referente ao atraso na entrega informado na sua mensagem será analisado separadamente pela nossa equipe de atendimento.",sim,na,nao,nao
+R00076,fraude_vendedor,padrao,2026-04-10,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de má-fé do vendedor foi registrado e encaminhado à área de prevenção para apuração formal (POL ATD 01). 
+
+Enquanto a investigação estiver em andamento, o pagamento ao vendedor fica totalmente retido (POL ATD 01). Caso a má-fé seja confirmada ao final da apuração, a conta do vendedor é suspensa imediatamente (POL DIS 04).
+
+A sua solicitação de reembolso será analisada pela equipe de atendimento e pela área de prevenção durante a tratativa do caso.",sim,na,nao,nao
+R00007,entrega,premium,2026-05-22,"['pol-atd-01', 'pol-ent-02', 'pol-aut-02', 'pol-ent-02', 'pol-atd-01']",1.0,False,"Olá! Recebemos sua solicitação sobre o atraso na entrega da sua compra. 
+
+Primeiramente, realizaremos a verificação inicial do seu rastreio e do prazo prometido no anúncio (POL ATD 01). Se for verificado que o pedido está fora do prazo prometido, abriremos uma investigação formal com a transportadora. Nesse cenário de apuração:
+- O prazo para resposta a você é de 7 dias úteis se a venda foi por vendedor parceiro, ou 3 dias úteis se foi por loja oficial (POL ATD 01).
+
+Caso o atraso seja confirmado pela apuração, o valor do frete será reembolsado a você (POL ENT 02). 
+
+A confirmação dos dados de rastreio e o andamento da investigação serão tratados por nossa equipe.",sim,sim,nao,nao
+R00194,outros,padrao,2026-04-24,"['rev-dev-v2', 'pol-aut-02', 'pol-atd-01', 'pol-atd-01', 'pol-atd-01']",,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e resolução da cobrança duplicada.,sim,na,nao,sim
+R00170,devolucao_ressarcimento,padrao,2026-05-14,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Em caso de recusa do produto na entrega, o item retorna ao vendedor pela transportadora e a cobrança é cancelada após a confirmação desse retorno. Para compras parceladas, todas as parcelas futuras são canceladas (POL DEV 03, versão 2, revogada). 
+
+Como a devolução já ocorreu no ato da entrega, você não precisa abrir um chamado adicional para isso. Seu caso sobre a continuidade dos débitos parcelados será encaminhado para a análise da nossa equipe de atendimento para verificar a confirmação do retorno junto à transportadora e efetivar o cancelamento das cobranças.",sim,na,nao,nao
+R00168,devolucao_ressarcimento,padrao,2026-06-16,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Caso você esteja tentando realizar a devolução por arrependimento, o prazo para abertura do chamado é de 7 dias corridos a contar do recebimento, com logística reversa sem custo para você (POL DEV 03). 
+
+No entanto, como você relatou uma falha técnica no aplicativo que impede a geração da etiqueta de postagem, esse problema específico de erro no sistema para emissão do código não está detalhado nos procedimentos dos documentos vigentes. 
+
+Por esse motivo, o seu chamado será encaminhado imediatamente à nossa equipe de atendimento para análise e solução técnica da geração da sua etiqueta.",sim,sim,nao,sim
+R00172,devolucao_ressarcimento,padrao,2026-02-17,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Analisaremos o seu pedido de devolução e ressarcimento. 
+
+Como os trechos de documentos fornecidos e vigentes não detalham os prazos nem o procedimento exato para o processamento e liberação do reembolso do valor de R$ 162,11 após a devolução do item ao vendedor, este ponto específico do seu chamado será analisado e finalizado diretamente pela nossa equipe de atendimento.
+
+Em relação à caixa danificada pelo transporte na devolução, ressaltamos que danos de transporte ocorridos durante a devolução são de responsabilidade da plataforma quando a logística reversa é providenciada por ela (POL DEV 03).",sim,nao,nao,sim
+R00013,entrega,padrao,2026-04-13,"['pol-ent-02', 'pol-aut-02', 'pol-ent-02', 'pol-ent-02', 'pol-ent-02']",1.0,False,"Olá! Vamos ajudar você com a situação da sua entrega.
+
+Como o rastreamento está parado, a plataforma abrirá uma investigação formal com a transportadora para apurar o atraso (POL ENT 02). 
+
+A transportadora tem o prazo de até **7 dias úteis** para responder à investigação (POL ENT 02). Durante esse período, você não precisa se preocupar em abrir novos chamados, pois receberá notificações e atualizações automáticas direto no sistema da plataforma à medida que o caso avançar (POL ENT 02).
+
+Caso o atraso seja confirmado ao final da apuração, o valor do frete pago será reembolsado a você, independentemente da escolha pelo reenvio do produto ou pelo reembolso integral (POL ENT 02).",sim,sim,nao,nao
+R00021,entrega,premium,2026-05-21,"['pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02', 'pol-ent-02']",1.0,False,"Olá! Sinto muito pelo atraso na sua entrega. 
+
+Primeiramente, nosso atendimento fará a verificação inicial do rastreio e do prazo (POL ATD 01). Como o prazo prometido foi ultrapassado, abriremos uma investigação formal com a transportadora (POL ATD 01). 
+
+O prazo para resposta e conclusão da investigação é de 7 dias úteis para vendedores parceiros ou de 3 dias úteis para lojas oficiais (POL ATD 01). Se for confirmado o extravio ou o atraso, você terá direito ao reembolso do frete, que é devolvido independentemente da solução escolhida (POL ENT 02).
+
+Acompanharemos seu caso e enviaremos atualizações.",sim,nao,nao,nao
+R00058,divergente_defeito,padrao,2026-03-19,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-atd-01']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto com defeito ou divergente, é necessário que você anexe fotos do item recebido e das avarias mencionadas. 
+
+A ausência da documentação fotográfica suspende a análise do chamado até o envio do material (POL ATD 01). Assim que as imagens forem enviadas e a divergência ou defeito for confirmada pela equipe responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01).
+
+Ficamos no aguardo do envio das fotos para prosseguir com o seu atendimento!",sim,na,nao,nao
+R00030,entrega,padrao,2026-05-13,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'rev-dev-v2', 'pol-ent-02']",1.0,False,"Sobre o seu caso de atraso na entrega, a plataforma irá abrir uma verificação formal com a transportadora para apurar a situação da sua encomenda (POL ENT 02). 
+
+Se a entrega já constar como feita no sistema mas você não recebeu, a transportadora tem até 7 dias úteis para apresentar a comprovação (POL ENT 02). Caso a entrega não seja comprovada ou o atraso/extravio seja confirmado, o frete é reembolsado e você poderá optar pelo reenvio ou pelo reembolso integral (POL ENT 02).
+
+Os demais detalhes específicos e o andamento da apuração serão analisados pela equipe de atendimento.",sim,nao,nao,nao
+R00196,outros,padrao,2026-04-12,"['pol-atd-01', 'pol-atd-01', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",,True,"Os documentos disponíveis não cobrem este caso. Por essa razão, seu chamado será encaminhado diretamente à nossa equipe de atendimento para análise e suporte adequados.",sim,na,nao,sim
+R00177,devolucao_ressarcimento,premium,2026-02-22,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Recebemos sua solicitação sobre a devolução do Patinete infantil dobrável.
+
+Informamos que as mensagens enviadas pelo vendedor fora dos canais oficiais da plataforma não têm validade para alterar prazos ou condições de devolução, prevalecendo sempre as regras da plataforma (POL DEV 03, versão 2). 
+
+A análise da sua solicitação de devolução e o acompanhamento do seu caso serão realizados diretamente pela nossa equipe de atendimento.
+
+Permanecemos à disposição para ajudá-lo durante todo o processo.",sim,nao,nao,nao
+R00126,artigo_proibido,padrao,2026-04-16,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos o seu contato.
+
+Recebemos sua sinalização sobre o produto da categoria maquiagem. A plataforma proíbe expressamente a oferta de produtos sujeitos a registro sanitário que não disponham do devido registro válido ou exigido (POL PRO 05 - Seção 3.2). 
+
+Seu caso sobre a falta de comprovação de registro do item anunciado foi registrado e será encaminhado para a nossa equipe de atendimento e conformidade para análise do anúncio e adoção das providências cabíveis.",sim,na,nao,nao
+R00045,divergente_defeito,padrao,2026-07-29,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! Como o produto recebido apresentou divergência de cor e dimensões em relação ao anunciado, você deve anexe fotos do item recebido ao chamado (POL ATD 01, POL DEV 03). Para agilizar a análise, inclua também o número do pedido e a descrição do ocorrido (POL DEV 03).
+
+Após a confirmação da divergência, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso integral, sem custos de frete para você (POL ATD 01, POL DEV 03). 
+
+A reclamação referente à caixa amassada durante o transporte será analisada pela nossa equipe de atendimento (POL ATD 01).",sim,na,nao,nao
+R00135,artigo_proibido,padrao,2026-09-02,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! A plataforma proíbe a oferta de itens vedados em qualquer modalidade, incluindo brindes e envios conjuntos dentro do pacote (POL PRO 05). Por exemplo, na categoria de Saúde, é proibida a circulação de medicamentos, suplementos sem registro sanitário válido no Brasil ou produtos que exijam receita (POL PRO 05).
+
+Sua sinalização sobre o item adicional recebido será analisada pela equipe de atendimento para verificar a conformidade com as nossas regras.",sim,na,nao,nao
+R00040,divergente_defeito,padrao,2026-04-10,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para dar andamento ao seu caso de produto divergente do anunciado, é necessário que você anexe fotos do item recebido comprovando a divergência (POL ATD 01). 
+
+Após a confirmação do erro pela nossa equipe, você poderá escolher entre a troca do produto ou a devolução com reembolso integral (POL ATD 01, POL DEV 03). Seu chamado passará por análise e o resultado será comunicado pelo canal cadastrado (POL DEV 03).",sim,na,nao,nao
+R00185,outros,padrao,2026-03-27,"['pol-atd-01', 'pol-atd-01', 'rev-dev-v2', 'pol-clu-01', 'pol-pro-05']",,True,"Olá! 
+
+Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à nossa equipe de atendimento para análise e direcionamento.",sim,na,nao,sim
+R00127,artigo_proibido,padrao,2026-09-13,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos a sua denúncia. 
+
+Quando um anúncio oferece um item vedado, a regra da plataforma determina que o anúncio é removido e, em caso de reincidência, o vendedor é suspenso (POL PRO 05, Seção 5.1). A remoção ocorre sem aviso prévio e pode ser feita de forma automatizada ou manual (POL PRO 05, Seção 5.2). 
+
+A sua sinalização sobre a conduta do vendedor na seção de perguntas e respostas foi recebida e será analisada pela nossa equipe de atendimento para apuração dos fatos e aplicação do procedimento de conformidade aplicável (POL PRO 05, Seção 3 e Seção 5.1).",sim,na,nao,nao
+R00175,devolucao_ressarcimento,padrao,2026-04-26,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Seu chamado será analisado e direcionado para o processamento do estorno. 
+
+O ressarcimento será realizado obrigatoriamente no mesmo meio de pagamento da compra original — neste caso, no seu cartão —, pois o cupom da plataforma só é aplicado com o seu aceite expresso (POL DEV 03).
+
+Como a sua compra é de R$ 90,98 (faixa de valor até R$ 100,00), os documentos disponíveis não cobrem a informação do prazo exato para a conclusão deste estorno. Portanto, este ponto específico do prazo será analisado diretamente pela nossa equipe de atendimento para lhe fornecer o retorno correto.",sim,nao,nao,sim
+R00092,falsificado,padrao,2026-08-27,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Recebemos o seu relato sobre a suspeita de imitação do produto adquirido.
+
+Para darmos andamento, o caso será analisado pela área de autenticidade (POL AUT 02). Para que a investigação seja iniciada, você precisa enviar as fotos da embalagem (com etiquetas e lacres), do produto e dos elementos que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Após o envio da documentação completa, a equipe terá o prazo de 5 dias úteis para concluir a análise (POL AUT 02). Se confirmada a irregularidade, você terá direito ao reembolso integral (POL AUT 02).",sim,sim,nao,nao
+R00048,divergente_defeito,premium,2026-09-21,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-atd-01', 'pol-gar-01']",1.0,False,"Olá! Para darmos andamento ao seu caso de defeito e divergência no produto, é necessário que você anexe fotos do item recebido e da embalagem demonstrando as avarias e arranhões (POL ATD 01, POL DEV 03). Seu chamado ficará suspenso aguardando o envio dessa documentação fotográfica para que possamos prosseguir com a análise (POL ATD 01). 
+
+Assim que a documentação for enviada e a divergência ou defeito for confirmada pela nossa área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01).",sim,na,nao,nao
+R00023,entrega,padrao,2026-08-03,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'com-2026-003', 'pol-ent-02']",1.0,False,"Olá! Lamentamos o inconveniente com o rastreamento do seu livro.
+
+Como a sua compra foi realizada em uma loja oficial (Livraria Página Dez Oficial), abriremos uma investigação com a transportadora. A equipe terá o prazo de até 3 dias úteis para apresentar uma resposta sobre a localização do pedido (POL ATD 01). 
+
+Você receberá atualizações sobre o andamento e não precisa se preocupar: se o atraso ou extravio for confirmado, o valor do frete será reembolsado independentemente do desfecho escolhido (POL ENT 02). 
+
+Acompanhe as notificações pelo sistema da plataforma. Estamos à disposição!",sim,sim,nao,nao
+R00062,fraude_vendedor,padrao,2026-06-05,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu caso foi recebido com o protocolo registrado. 
+
+Como houve relato de suspeita de fraude e má-fé por parte do vendedor, o seu chamado será encaminhado para a área de prevenção para apuração formal, e o pagamento ao vendedor permanecerá retido durante toda a investigação (POL ATD 01). 
+
+Ressaltamos que a plataforma recomenda formalmente que os pagamentos sejam realizados exclusivamente dentro do ambiente da loja; pagamentos feitos fora da plataforma não possuem proteção nem reembolso (POL ATD 01).
+
+A área de prevenção analisará a conduta do vendedor e o status do anúncio de acordo com as diretrizes de disputas da plataforma (POL DIS 04).",sim,na,nao,nao
+R00072,fraude_vendedor,padrao,2026-04-02,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Como há suspeita de conduta fraudulenta ou má-fé por parte do vendedor, seu caso será encaminhado à área de prevenção para apuração formal, e o pagamento ao vendedor permanecerá retido durante toda a investigação (POL ATD 01). 
+
+Ressaltamos que pagamentos ou transferências realizados fora do ambiente da plataforma não possuem proteção nem reembolso em nenhuma hipótese (POL ATD 01).
+
+A área de prevenção analisará a situação do vendedor e o anúncio. Quanto a qualquer eventual pedido de devolução ou reembolso do valor original da compra, este ponto será analisado e tratado pela equipe de atendimento (POL ATD 01). Fontes: (POL ATD 01) e (POL DIS 04).",sim,na,nao,nao
+R00071,fraude_vendedor,padrao,2026-03-09,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a suspeita de má-fé do vendedor foi registrado e será encaminhado para a área de prevenção para apuração formal (POL ATD 01). 
+
+Durante a investigação, o pagamento ao vendedor ficará totalmente retido (POL ATD 01). Caso a má-fé seja confirmada ao final da análise, a conta do vendedor será suspensa imediatamente (POL DIS 04). 
+
+Por se tratar de um processo de análise interna pela equipe responsável, os prazos específicos e as providências finais do seu caso serão analisados e informados diretamente pela equipe de atendimento.",sim,na,nao,nao
+R00112,falsificado,padrao,2026-08-24,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de imitação será analisado pela área de autenticidade (POL AUT 02). 
+
+Para que a investigação seja iniciada, você precisa fornecer no chamado:
+- Fotos da embalagem (etiquetas e lacres);
+- Fotos do produto em ângulos adequados;
+- Fotos detalhadas dos elementos que motivaram a suspeita;
+- Identificação do pedido (POL AUT 02).
+
+Como os trechos não explicam a interface de envio das imagens, essa orientação específica sobre como anexar as fotos no sistema será analisada pela equipe de atendimento.",sim,na,nao,sim
+R00116,falsificado,padrao,2026-06-12,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Recebemos o seu relato sobre a suspeita de o produto ser uma imitação.
+
+Seu chamado será analisado pela área de autenticidade (POL AUT 02). Para dar andamento à investigação, você deve fornecer fotos da embalagem (etiquetas e lacres), fotos do produto em diversos ângulos e fotos dos elementos que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Caso a imitação seja confirmada pela equipe responsável, você terá direito ao reembolso integral do valor pago na compra, sem a aplicação de teto limite por faixa de valor (POL AUT 02).
+
+A análise do caso e os próximos passos serão seguidos diretamente pela nossa equipe de atendimento.",sim,sim,nao,nao
+R00051,divergente_defeito,padrao,2026-07-22,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-atd-01', 'pol-dev-03']",1.0,False,"Olá! Para a questão do produto divergente ou com defeito, seu chamado prosseguirá para análise assim que você anexar as fotos do item recebido comparando-o com o anúncio, conforme exigido em (POL ATD 01) e (POL DEV 03). Confirmada a divergência ou defeito, você poderá escolher entre a troca e a devolução com reembolso (POL ATD 01). 
+
+Sobre o atraso na entrega, informo que este ponto será analisado e tratado separadamente pela equipe de atendimento, pois cada assunto gera um protocolo próprio (POL ATD 01).",sim,na,nao,nao
+R00181,outros,padrao,2026-06-15,"['rev-dev-v2', 'pol-atd-01', 'pol-pro-05', 'pol-atd-01', 'pol-atd-01']",,True,"Olá! Os documentos disponíveis não cobrem este caso (alteração ou atualização de endereço de entrega de pedido). 
+
+Seu chamado será encaminhado à equipe de atendimento para análise e suporte.",sim,na,nao,sim
+R00036,divergente_defeito,padrao,2026-05-25,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para dar andamento à sua solicitação de troca por defeito, é necessário anexar fotos do produto recebido ao chamado para que a análise possa prosseguir (POL ATD 01). 
+
+Após o envio da documentação fotográfica e a confirmação do defeito pela equipe responsável, você poderá optar pela troca pelo mesmo produto ou pela devolução com reembolso integral (POL ATD 01, POL DEV 03). Caso você escolha a troca e não haja estoque disponível, você poderá aguardar a reposição ou optar pelo reembolso integral, sem custos adicionais (POL DEV 03).
+
+Por favor, anexe as fotos ao chamado para darmos sequência ao atendimento!",sim,na,nao,nao
+R00079,fraude_vendedor,padrao,2026-04-21,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Vamos te ajudar com essa situação. 
+
+Seu caso de suspeita de má-fé do vendedor será encaminhado para a área de prevenção para apuração formal, e o pagamento ao vendedor ficará retido durante toda a investigação, sem liberação antecipada (POL ATD 01). 
+
+Caso seja confirmada a má-fé, a conta do vendedor será suspensa imediatamente e os pedidos vinculados entrarão em verificação (POL DIS 04). Lembrando que, caso o pagamento tenha sido realizado fora da plataforma, não há cobertura nem reembolso (POL ATD 01). 
+
+Sobre a resolução financeira e devolução do valor pago, este ponto específico será analisado e tratado diretamente pela equipe de atendimento responsável.",sim,na,nao,nao
+R00189,outros,padrao,2026-03-24,"['pol-aut-02', 'pol-atd-01', 'com-2026-003', 'rev-dev-v2', 'pol-atd-01']",,True,Olá! Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e tratativa do cupom de desconto de primeira compra.,sim,na,nao,sim
+R00132,artigo_proibido,padrao,2026-02-22,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia sobre o vendedor Central das Marcas. 
+
+A oferta e o envio de programas de computador, licenças, assinaturas digitais ou chaves de ativação de software revendidas são expressamente vedados na plataforma, inclusive quando oferecidos como brindes ou itens em envio conjunto (POL PRO 05, Seções 3.1.1 e Definições).
+
+Seu chamado foi registrado e o caso será analisado pela equipe de atendimento responsável, que verificará a infração e aplicará o procedimento de conformidade aplicável ao anúncio e ao vendedor (POL PRO 05, Preâmbulo e Seção 1.2). 
+
+Agradecemos o seu contato e a ajuda para manter a segurança da nossa plataforma!",sim,na,nao,nao
+R00148,artigo_proibido,padrao,2026-04-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos alertar sobre a situação.
+
+Na Quantum Commerce, a oferta de itens de venda não permitida é expressamente vedada em qualquer circunstância (POL PRO 05, Seção 1.1). Quando um anúncio oferece um item proibido, a regra prevê que ele seja removido e, em caso de reincidência por parte do vendedor, é aplicada a suspensão da conta (POL PRO 05, Seção 5.1).
+
+Seu relato sobre a reincidência da infração e o retorno do anúncio foi recebido e será analisado pela nossa equipe de atendimento e conformidade para a tomada das medidas cabíveis.",sim,na,nao,nao
+R00069,fraude_vendedor,premium,2026-05-20,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Lamentamos pelo ocorrido. Como você relata uma conduta de má-fé por parte do vendedor, o seu caso será encaminhado imediatamente à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento ao vendedor fica totalmente retido pela plataforma para a sua segurança, conforme estabelece o procedimento de disputa (POL ATD 01, POL DIS 04).
+
+Se a área de prevenção confirmar a má-fé, a conta do vendedor será suspensa (POL DIS 04). Acompanharemos a análise para dar o devido andamento à resolução.",sim,na,nao,nao
+R00179,devolucao_ressarcimento,premium,2026-03-19,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Vamos analisar sua solicitação sobre a divergência no valor do reembolso. 
+
+Sua cobrança para receber o valor correto pago de R$ 56,33 será encaminhada para análise e acerto com a equipe de atendimento, pois os documentos disponíveis não cobrem a regra específica de ajuste para reembolso efetuado com montante inferior.
+
+Apenas para seu conhecimento, quando a devolução decorre de avaria ou defeito comprovado, a logística reversa é providenciada pela plataforma sem nenhum custo para o comprador (POL DEV 03, versão 2). O ponto referente à diferença do valor ressarcido será analisado diretamente pela equipe de atendimento para a devida regularização.",sim,sim,nao,sim
+R00033,divergente_defeito,padrao,2026-08-15,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto divergente, é necessário anexar fotos do item recebido ao chamado (POL ATD 01). 
+
+Após a confirmação da divergência pela nossa equipe, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01).
+
+O prazo para a solicitação de devolução por divergência é contado a partir da data de recebimento do produto e segue a tabela de garantia por categoria (POL DEV 03). No entanto, a regra com a listagem exata dos prazos por categoria para a sua solicitação será analisada e informada pela equipe de atendimento.",sim,nao,nao,nao
+R00075,fraude_vendedor,padrao,2026-08-12,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a suspeita de conduta fraudulenta do vendedor foi registrado e encaminhado à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante toda a investigação, o pagamento ao vendedor permanecerá totalmente retido, sem qualquer liberação parcial ou antecipada até a emissão do parecer conclusivo (POL ATD 01). Se a má-fé for confirmada, a conta do vendedor será suspensa imediatamente e seus demais pedidos entrarão em verificação (POL DIS 04).
+
+Sobre o seu pagamento, como os documentos disponíveis não detalham o procedimento específico de reembolso para este cenário exato de cancelamento pelo vendedor, este ponto será analisado e respondido diretamente pela equipe de atendimento.",sim,na,nao,sim
+R00180,devolucao_ressarcimento,premium,2026-05-18,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Como você recusou a entrega do produto no momento da recepção, ele retornará diretamente ao vendedor por meio da transportadora. Após a confirmação desse retorno, a cobrança será cancelada integralmente, incluindo todas as parcelas futuras, sem que você precise realizar procedimentos adicionais (POL DEV 03).
+
+Em relação às parcelas que ainda constam como ativas em seu sistema, o seu chamado será encaminhado à nossa equipe de atendimento para analisar e regularizar a atualização do cancelamento da cobrança junto ao sistema.",sim,na,nao,nao
+R00055,divergente_defeito,premium,2026-05-24,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01', 'rev-dev-v2']",1.0,False,"Olá! Para dar andamento à sua solicitação sobre a divergência no produto recebido, é necessário que você anexe fotos da HQ recebida demonstrando as diferenças relatadas (POL ATD 01). 
+
+Após o envio da documentação e a confirmação da divergência pela área responsável, você poderá escolher entre a troca do item ou a devolução com reembolso integral (POL ATD 01, POL DEV 03). Caso seja assinante do Clube Q+, condições específicas de prazos e valores podem se aplicar (POL DEV 03).
+
+Assim que anexar as fotos ao chamado, faremos a análise do seu caso.",sim,na,nao,nao
+R00020,entrega,padrao,2026-07-14,"['pol-gar-01', 'pol-atd-01', 'pol-dev-03', 'pol-aut-02', 'pol-ent-02']",1.0,False,"Olá! Vamos verificar a situação da sua entrega. 
+
+Conforme o nosso procedimento, faremos a verificação inicial do rastreio e do prazo prometido (POL ATD 01). Se o pedido estiver fora do prazo prometido, abriremos uma investigação com a transportadora responsável. O prazo de resposta durante essa apuração é de 7 dias úteis para vendas por vendedores parceiros e de 3 dias úteis para lojas oficiais, e você será mantido informado sobre o andamento (POL ATD 01).
+
+A questão sobre a disponibilização da política de entregas para a sua cidade e o pedido de reembolso do frete serão analisados pela equipe de atendimento.",sim,sim,nao,nao
+R00014,entrega,padrao,2026-02-19,"['pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-atd-01', 'pol-ent-02']",1.0,False,"Olá! 
+
+Solicitaremos a confirmação do seu endereço e abriremos uma verificação com a transportadora sobre a devolução do seu produto. Durante esse processo, o repasse do valor ao vendedor fica preventivamente retido (POL ENT 02). 
+
+A transportadora tem o prazo de até 7 dias úteis para apresentar a comprovação ou tratar o caso (POL ENT 02). Se for uma investigação de atraso ou extravio por vendedor parceiro, o prazo de resposta ao cliente também é de 7 dias úteis; caso seja loja oficial, o prazo é de 3 dias úteis (POL ATD 01). 
+
+O reembolso do frete ou as regras para reenvio serão analisados pela equipe de atendimento após a verificação.",sim,nao,nao,nao
+R00188,outros,padrao,2026-09-26,"['pol-pro-05', 'pol-atd-01', 'pol-dev-03', 'pol-atd-01', 'pol-dev-03']",,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e orientação sobre a alteração da forma de pagamento.,sim,na,nao,sim
+R00053,divergente_defeito,padrao,2026-07-07,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Seu chamado passará por análise da plataforma para verificar a divergência do produto recebido (POL DEV 03).
+
+Como condição para o prosseguimento da análise, é necessário que você anexe ao chamado fotografias ou vídeos do item recebido, preferencialmente comparando-o com a descrição do anúncio, além de informar o número do pedido e uma descrição objetiva do problema (POL ATD 01; POL DEV 03).
+
+Após a confirmação da divergência pela área responsável, você poderá escolher entre a troca pelo produto correto ou a devolução com reembolso (POL ATD 01).",sim,na,nao,nao
+R00041,divergente_defeito,padrao,2026-02-25,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01']",1.0,False,"Olá! Para dar andamento ao seu caso de produto divergente, é necessário que você anexe fotos do item recebido comprovando a divergência com o anúncio (POL ATD 01). Após o envio das imagens e a confirmação do problema pela área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01). 
+
+Sobre o atraso na entrega, este ponto específico será analisado pela nossa equipe de atendimento.",sim,na,nao,nao
+R00103,falsificado,premium,2026-06-12,"['pol-aut-02', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu caso foi registrado e será encaminhado para análise especializada da área de autenticidade (POL ATD 01). 
+
+Para que a investigação tenha início, seu chamado deve conter fotos da embalagem (com etiquetas e lacres), fotos do produto e das evidências que motivaram a suspeita de falsificação, além da identificação do pedido (POL AUT 02). 
+
+Se você for assinante do Clube Q+, prazos ou valores diferenciados aplicáveis serão informados pela equipe. O anúncio poderá ser suspenso preventivamente durante a análise (POL ATD 01).
+
+Aguarde o retorno do atendimento após o envio da documentação completa.",sim,nao,sim,nao
+R00089,fraude_vendedor,padrao,2026-02-17,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Sinto muito por essa situação. 
+
+Seu caso envolve suspeita de conduta fraudulenta do vendedor. Ele será encaminhado para a área de prevenção para apuração formal, e o pagamento ao vendedor ficará retido durante toda a investigação, sem liberação antecipada (POL ATD 01). 
+
+Caso seja confirmada a má-fé, a conta do vendedor será suspensa imediatamente e os pedidos vinculados passarão por verificação (POL DIS 04).
+
+Ressalto que pagamentos realizados fora da plataforma não possuem proteção ou reembolso em nenhuma hipótese (POL ATD 01).
+
+Fontes: (POL ATD 01) e (POL DIS 04).",sim,na,nao,nao
+R00027,entrega,premium,2026-06-21,"['pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-ent-02', 'pol-ent-02']",1.0,False,"Olá! Vamos analisar o seu caso referente ao atraso na entrega do seu pedido.
+
+Em casos de pedido fora do prazo prometido, nós abriremos uma investigação formal com a transportadora responsável (POL ATD 01, Seção 2.3) e solicitaremos o acompanhamento do envio (POL ENT 02, Item 3.1). O repasse do valor ao vendedor permanecerá retido como cautela operacional até a conclusão do caso (POL ENT 02, Item 3.1).
+
+O prazo para a resposta ao cliente durante essa investigação é de 7 dias úteis para vendedores parceiros ou de 3 dias úteis caso a compra tenha sido realizada em uma loja oficial (POL ATD 01, Seção 2.3). Se confirmado o atraso ou extravio, o valor do frete é reembolsado (POL ENT 02, FAQ).",sim,nao,nao,nao
+R00084,fraude_vendedor,padrao,2026-05-28,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado relatando a abordagem irregular do vendedor foi registrado. 
+
+Seu caso será encaminhado para a área de prevenção, que realizará uma apuração formal sobre a conduta do vendedor (POL ATD 01). Durante todo o período dessa investigação, o pagamento ao vendedor permanecerá totalmente retido pela plataforma (POL ATD 01). 
+
+Caso a má-fé do vendedor seja confirmada pela área de prevenção, a conta dele será suspensa imediatamente (POL DIS 04).
+
+Acompanharemos o processo para garantir que as devidas providências sejam tomadas.",sim,na,nao,nao
+R00157,devolucao_ressarcimento,premium,2026-08-16,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-clu-01', 'pol-dev-03']",1.0,False,"Olá! Para o seu pedido de devolução, o prazo correto de arrependimento (7 dias corridos) deve ser contado a partir do recebimento do produto, e não da data da compra (POL DEV 03). Como a devolução foi negada por contagem incorreta a partir da data de compra, solicitamos a revisão da sua solicitação. 
+
+Se o seu pedido for por motivo de defeito, o prazo específico varia conforme a categoria do item e é definido pela política POL GAR 01 (POL DEV 03). 
+
+A análise da revisão será realizada pela nossa equipe de atendimento (POL DEV 03). Caso precise, se você for assinante do Clube Q+, condições específicas do programa podem se aplicar (POL DEV 03, POL CLU 01).",sim,sim,sim,nao
+R00142,artigo_proibido,padrao,2026-08-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos por nos alertar sobre a situação. 
+
+A oferta de licenças e chaves de ativação de software, seja por mensagem, e-mail ou envio conjunto (inclusive como brinde), é expressamente vedada na plataforma sob qualquer circunstância (POL PRO 05, Seção 1.1 e Seção 3.1). O vendedor é responsável por todo o conteúdo dos seus anúncios e pacotes (POL PRO 05, Seção 1.2).
+
+Sua denúncia sobre o produto e o vendedor foi recebida e será analisada pela nossa equipe de atendimento para que as medidas cabíveis sejam aplicadas conforme as regras de conformidade da plataforma (POL PRO 05, Preâmbulo).",sim,na,nao,nao
+R00162,devolucao_ressarcimento,padrao,2026-02-26,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e posterior retorno.,sim,nao,nao,sim
+R00016,entrega,padrao,2026-07-28,"['pol-ent-02', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-ent-02']",1.0,False,"Olá! Vamos te ajudar com o seu pedido.
+
+Ao receber um chamado sobre entrega, o atendimento faz uma verificação inicial do rastreio e do prazo prometido antes de qualquer outra ação (POL ATD 01). Se o pedido estiver dentro do prazo, você receberá orientações para acompanhamento; se o prazo prometido tiver sido ultrapassado, abriremos uma investigação com a transportadora, cujo prazo de resposta é de 7 dias úteis para vendedor parceiro ou 3 dias úteis para loja oficial (POL ATD 01).
+
+Caso a transportadora confirme que o pacote não foi localizado, o caso é tratado formalmente como extravio (POL ENT 02). Seus dados serão analisados por nossa equipe.",nao,nao,sim,nao
+R00067,fraude_vendedor,padrao,2026-03-23,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Analisei o seu relato sobre a suspeita quanto ao vendedor.
+
+Seu chamado será encaminhado para a área de prevenção para apuração formal da suspeita de conduta fraudulenta ou má-fé (POL ATD 01). 
+
+Durante todo o período de investigação, o pagamento ao vendedor permanecerá totalmente retido, sem liberação antecipada, até que a área responsável emita o parecer conclusivo sobre o caso (POL ATD 01). Se a má-fé for confirmada, a conta do vendedor será suspensa imediatamente (POL DIS 04).
+
+Fontes: Manual de atendimento e resolução de chamados (POL ATD 01) e Procedimento de disputa e prevenção (POL DIS 04).",sim,nao,nao,nao
+R00074,fraude_vendedor,padrao,2026-03-19,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu caso sobre a suspeita de conduta fraudulenta do vendedor foi registrado e encaminhado à área de prevenção para apuração formal (POL ATD 01). 
+
+Durante toda a investigação, o pagamento ao vendedor permanecerá totalmente retido (POL ATD 01). Caso a área de prevenção confirme a má-fé, a conta do vendedor será suspensa imediatamente e todos os seus demais pedidos entrarão em verificação (POL DIS 04).
+
+Lembramos que a plataforma recomenda realizar pagamentos e tratativas exclusivamente em nosso ambiente (POL ATD 01). Se necessário, a equipe responsável poderá entrar em contato para complementar a análise.",sim,na,nao,nao
+R00151,devolucao_ressarcimento,padrao,2026-02-24,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Sua solicitação de devolução por arrependimento foi iniciada dentro do prazo de 7 dias corridos a contar da compra (POL DEV 03).
+
+Forneceremos as instruções para você devolver o produto ao vendedor sem nenhum custo de frete (POL DEV 03). Após o envio e a verificação do item, o reembolso será processado pelo mesmo meio de pagamento utilizado na compra original, cobrindo o valor total de R$ 400,76 (POL DEV 03). O produto deve ser devolvido em condições que permitam sua identificação como o item original (POL DEV 03).
+
+A equipe de atendimento dará continuidade ao seu caso fornecendo os dados e as orientações para a postagem.",sim,nao,sim,nao
+R00102,falsificado,padrao,2026-01-07,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Sua denúncia sobre a suspeita de produto não autêntico foi registrada e será encaminhada para análise pela nossa área de autenticidade (POL AUT 02). 
+
+Para prosseguirmos com a investigação do seu caso, é necessário que você envie fotos da embalagem (com etiquetas e lacres), fotos do produto em múltiplos ângulos e imagens dos detalhes que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Como os documentos fornecidos não informam o prazo exato para a conclusão desta análise de autenticidade nem os prazos de devolução, esses pontos específicos serão analisados e orientados pela nossa equipe de atendimento.",sim,na,nao,sim
+R00096,falsificado,padrao,2026-03-16,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu caso será analisado pela equipe de área de autenticidade (POL AUT 02). 
+
+Para prosseguir com a investigação da suspeita de imitação, você deve enviar pelo chamado:
+1. Fotos da embalagem (com etiquetas e lacres);
+2. Fotos do produto em múltiplos ângulos;
+3. Fotos dos elementos que motivaram a suspeita (POL AUT 02).
+
+Se a imitação for confirmada, você receberá o reembolso integral do valor pago no pedido. Caso a devolução física do item seja avaliada pela plataforma como inviável, o reembolso integral será processado sem a necessidade de devolução (POL AUT 02).
+
+Como enviar as fotos pelo site será analisado pela equipe de atendimento.",sim,nao,nao,sim
+R00091,falsificado,padrao,2026-06-30,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Recebemos a sua denúncia sobre a suspeita de falsificação do produto.
+
+Seu caso será encaminhado para análise especializada da área de autenticidade (POL ATD 01). O anúncio do produto poderá ser suspenso preventivamente durante a investigação (POL ATD 01), e o vendedor terá o direito de apresentar sua defesa (POL AUT 02).
+
+Para que o processo de investigação seja iniciado e o prazo passe a contar, é necessário registrar o chamado pelos canais oficiais contendo obrigatoriamente: fotos da embalagem (etiquetas e lacres), fotos do produto, fotos dos elementos que motivaram a suspeita (ausência do selo e diferenças no material) e o número do pedido (POL AUT 02).",sim,nao,nao,nao
+R00002,entrega,premium,2026-04-29,"['pol-atd-01', 'pol-ent-02', 'pol-atd-01', 'pol-ent-02', 'pol-ent-02']",1.0,False,"Olá! Vamos te ajudar com o seu pedido.
+
+Primeiramente, confirmaremos o seu endereço e abriremos uma verificação com a transportadora sobre a entrega do seu produto (POL ENT 02). Durante esse período, o repasse ao vendedor ficará retido até a conclusão da apuração (POL ENT 02). A transportadora tem até 7 dias úteis para apresentar a comprovação de entrega; caso não seja comprovada, o caso será tratado como extravio (POL ENT 02).
+
+Sobre o reembolso do valor do frete pelo atraso na entrega, este ponto específico será analisado e respondido pela nossa equipe de atendimento após a conclusão da apuração do caso.",sim,sim,nao,nao
+R00049,divergente_defeito,padrao,2026-07-12,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Lamentamos pelo ocorrido com o seu produto. 
+
+Para que sua solicitação tenha prosseguimento e seja analisada pela área responsável, é necessário anexar fotos do item recebido ao chamado (POL ATD 01, POL DEV 03).
+
+Após a verificação e confirmação da divergência em relação ao anúncio, você poderá escolher entre a troca do produto ou a devolução com reembolso integral (POL ATD 01, POL DEV 03). Sua solicitação passará por análise da nossa equipe e a decisão será comunicada diretamente através deste canal de atendimento (POL DEV 03).",sim,nao,nao,nao
+R00145,artigo_proibido,premium,2026-07-04,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia referente ao anúncio do produto ""Delineador líquido preto"". 
+
+Informo que seu chamado foi registrado e encaminhado para a nossa área de conformidade, que é responsável por analisar a situação e aplicar os critérios da nossa lista de itens de venda não permitida (POL PRO 05). No momento, a análise do caso está em curso (POL ATD 01). 
+
+A verificação sobre a permissão do item e as eventuais providências necessárias serão analisadas pela equipe de atendimento e conformidade (POL ATD 01). Agradecemos o seu contato e a sua colaboração para manter a plataforma segura!",sim,na,nao,nao
+R00105,falsificado,padrao,2026-02-07,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu relato sobre a suspeita de falsificação do livro foi recebido. 
+
+Para que a investigação seja iniciada, você precisa registrar o chamado formal nos canais oficiais enviando fotos da embalagem (com etiquetas/lacres), do produto em diferentes ângulos e dos detalhes que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Seu caso será analisado pela área de autenticidade da plataforma assim que a documentação completa for enviada (POL AUT 02). 
+
+Como as regras para devolução ou reembolso não constam nos documentos fornecidos sobre este tipo de chamado, esse ponto específico será analisado e orientado pela equipe de atendimento (POL AUT 02).",sim,na,nao,sim
+R00073,fraude_vendedor,padrao,2026-08-18,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Lamento por essa situação com a sua compra. 
+
+Seu caso foi registrado sob a suspeita de conduta fraudulenta/má-fé do vendedor e será encaminhado para apuração formal da nossa área de prevenção (POL ATD 01). 
+
+Durante toda a investigação, o pagamento ao vendedor permanecerá totalmente retido e bloqueado pela plataforma (POL ATD 01). Caso a má-fé do vendedor seja confirmada ao final da apuração, a conta dele será suspensa imediatamente (POL DIS 04).
+
+O procedimento de análise e resolução do seu caso seguirá em andamento e será finalizado pela equipe responsável (POL ATD 01, POL DIS 04).",sim,na,nao,nao
+R00200,outros,padrao,2026-09-14,"['pol-dev-03', 'pol-gar-01', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01']",,True,"Olá! Para a compra do seu produto na categoria brinquedo, informamos que o prazo de garantia da plataforma é de 90 dias (POL GAR 01). 
+
+Sobre a solicitação de um canal de atendimento formal para tratar da sua garantia estendida e das dificuldades de contato com o vendedor (Loja do Edu), os documentos disponíveis não cobrem este caso. Por essa razão, este ponto específico será analisado e direcionado pela nossa equipe de atendimento.",sim,sim,nao,sim
+R00060,divergente_defeito,padrao,2026-04-13,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para darmos prosseguimento à análise do seu caso de produto divergente ou com defeito, você deve anexar fotografias do item recebido ao chamado (POL ATD 01).
+
+Após o envio das evidências e a confirmação do defeito ou divergência pela área responsável, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso integral (POL DEV 03). Para solicitações de troca, caso não haja estoque disponível, você poderá aguardar a reposição ou optar pelo reembolso integral sem custos adicionais (POL DEV 03).
+
+Em relação ao atraso na entrega e à embalagem amassada, esse ponto específico será analisado pela equipe de atendimento.",sim,na,nao,nao
+R00123,artigo_proibido,padrao,2026-08-23,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Na Quantum Commerce, a oferta de itens vedados é estritamente proibida em qualquer circunstância, incluindo itens enviados em conjunto no mesmo pacote ou como brindes (POL PRO 05, Seção 1.1 e 2.2). Os vendedores são integralmente responsáveis pelo conteúdo dos anúncios e dos pacotes que despacham (POL PRO 05, Seção 1.2).
+
+O seu relato reportando o envio do item não permitido será analisado pela equipe de atendimento, que seguirá com o procedimento de conformidade aplicável ao vendedor (POL PRO 05, Definições).",sim,na,nao,nao
+R00066,fraude_vendedor,padrao,2026-06-07,"['pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01']",1.0,False,"Olá! Analisamos o seu relato sobre o produto Volante com pedais RaceOne.
+
+Como o seu caso envolve suspeita de fraude/má-fé do vendedor, seu chamado foi encaminhado para a área de prevenção para apuração formal, conforme o procedimento aplicável (POL ATD 01) (POL DIS 04). Durante esse período de investigação, o pagamento ao vendedor fica totalmente retido (POL ATD 01).
+
+Caso a má-fé seja confirmada após a apuração, a conta do vendedor será suspensa imediatamente (POL DIS 04). A solicitação quanto ao reembolso do valor pago será analisada pela equipe de atendimento após o andamento do processo.",sim,na,nao,nao
+R00035,divergente_defeito,premium,2026-06-01,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para darmos andamento à análise do seu caso de produto divergente, é necessário que você anexe fotos do item recebido ao chamado (POL ATD 01).
+
+Assim que a divergência for confirmada pela área responsável, você poderá escolher entre a troca pelo produto correto ou a devolução com reembolso integral (POL ATD 01, POL DEV 03).
+
+Por favor, envie as imagens solicitadas para que possamos prosseguir com o seu atendimento.",sim,na,nao,nao
+R00109,falsificado,padrao,2026-04-11,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado será encaminhado para análise especializada da área de autenticidade (POL ATD 01).
+
+Para darmos segmento à investigação, você deve fornecer fotos da embalagem (com etiquetas/lacres), fotos do produto e imagens demonstrando o motivo da suspeita, além da identificação do pedido (POL AUT 02). 
+
+Caso a imitação seja confirmada pela equipe de análise, você terá direito ao reembolso integral do valor pago (R$ 46,27), sem sujeição ao teto por faixa de devolução convencional (POL AUT 02). Se a devolução física for considerada inviável pela plataforma, o reembolso será processado sem necessidade de devolução do item (POL AUT 02).",sim,sim,sim,nao
+R00026,entrega,padrao,2026-03-07,"['pol-atd-01', 'pol-ent-02', 'pol-atd-01', 'pol-atd-01', 'pol-ent-02']",1.0,False,"Olá! Primeiramente, realizaremos a verificação do rastreio e do prazo prometido no anúncio (POL ATD 01). 
+
+Se o pedido estiver dentro do prazo, você receberá orientações para acompanhamento (POL ATD 01). Se já estiver fora do prazo prometido, abriremos uma investigação formal com a transportadora, cujo prazo de resposta ao cliente é de 7 dias úteis para vendedores parceiros ou 3 dias úteis para lojas oficiais (POL ATD 01). 
+
+Caso o atraso ou extravio seja confirmado após a apuração, o valor do frete será reembolsado (POL ENT 02). 
+
+Sobre a solicitação de devolução do valor do frete, o ponto será analisado pela equipe de atendimento assim que a situação da entrega for esclarecida.",sim,sim,nao,nao
+R00090,fraude_vendedor,premium,2026-07-24,"['pol-atd-01', 'pol-atd-01', 'pol-aut-02', 'pol-atd-01', 'pol-atd-01']",1.0,False,"Olá! 
+
+O seu caso de suspeita de fraude/má-fé do vendedor será encaminhado para a área de prevenção para apuração formal. 
+
+Durante toda a apuração, o pagamento feito ao vendedor dentro da plataforma permanece totalmente retido, sem liberação antecipada ou parcial, até que seja emitido um parecer conclusivo (POL ATD 01). 
+
+Sobre a solicitação de pagamento por fora: esclarecemos que qualquer pagamento realizado fora da plataforma não possui proteção ou reembolso sob nenhuma hipótese (POL ATD 01).
+
+A análise detalhada da retenção e do andamento do caso será acompanhada e finalizada pela equipe de atendimento e área de prevenção.",sim,na,nao,nao
+R00098,falsificado,padrao,2026-04-25,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de produto falsificado foi registrado e será enviado para análise da nossa área de autenticidade (POL AUT 02). 
+
+Para que a equipe siga com a investigação, seu chamado deve conter obrigatoriamente:
+- Fotos da embalagem (etiquetas e lacres);
+- Fotos do produto em diversos ângulos;
+- Fotos detalhadas dos elementos que motivaram a suspeita (como o manual impresso e a ausência do lacre);
+- Identificação do pedido (POL AUT 02).
+
+Por favor, envie esses arquivos caso ainda não os tenha anexado. A contagem dos prazos de análise iniciará assim que a documentação completa for disponibilizada (POL AUT 02).",sim,na,nao,nao
+R00187,outros,padrao,2026-02-27,"['pol-atd-01', 'pol-atd-01', 'pol-gar-01', 'pol-atd-01', 'rev-dev-v2']",,False,"Olá! Agradecemos o seu contato.
+
+Como a sua dúvida sobre o parcelamento com juros no seu cartão de crédito não está coberta nos documentos disponíveis para este atendimento, o seu chamado será encaminhado à nossa equipe de atendimento, que fará a análise detalhada do seu caso.
+
+ Permanecemos à disposição!",sim,na,nao,sim
+R00182,outros,padrao,2026-04-03,"['pol-atd-01', 'pol-pro-05', 'pol-aut-02', 'pol-atd-01', 'pol-atd-01']",,False,"Olá! Seu chamado sobre a emissão e envio da nota fiscal do produto foi recebido e registrado.
+
+Analisando a documentação disponível, verificamos que os documentos normativos do nosso sistema não cobrem as regras ou procedimentos para solicitação de nota fiscal ou segunda via do documento. 
+
+Por conta disso, este ponto específico do seu chamado será imediatamente encaminhado para análise detalhada da nossa equipe especialista de atendimento, que retornará com as orientações necessárias (POL ATD 01).",sim,na,nao,sim
+R00110,falsificado,premium,2026-05-27,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a suspeita de produto falsificado foi recebido e encaminhado para a área de autenticidade para análise especializada (POL ATD 01). 
+
+Conforme as nossas diretrizes, todo produto anunciado como original deve ser autêntico (POL AUT 02). Durante essa verificação, o anúncio do vendedor poderá ser suspenso preventivamente e o vendedor poderá apresentar documentação comprobatória (POL ATD 01).
+
+O seu caso e a solicitação de providências estão em análise e os próximos passos serão informados pela nossa equipe de atendimento.",sim,na,nao,nao
+R00136,artigo_proibido,padrao,2026-04-30,"['pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia sobre a falta de registro sanitário/específico do produto informado. 
+
+O seu chamado foi registrado e encaminhado para a nossa área de conformidade, que é o setor responsável por analisar denúncias de itens de venda não permitida (POL ATD 01). A análise pela equipe especializada está em curso no momento. 
+
+Vale ressaltar que a oferta de produtos sujeitos a registro sanitário sem a devida regularização é vedada em nossa plataforma (POL PRO 05). Em breve, você receberá a atualização com o resultado da verificação realizada pela área competente.
+
+Atenciosamente,  
+Equipe de Atendimento Quantum Commerce",sim,na,nao,nao
+R00012,entrega,padrao,2026-03-19,"['pol-ent-02', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Vamos registrar a verificação do seu pedido com a transportadora para apurar o ocorrido. O repasse ao vendedor ficará retido preventivamente enquanto confirmamos a entrega (POL ENT 02). 
+
+A transportadora tem o prazo de até 7 dias úteis para apresentar a comprovação de entrega, como assinatura ou foto (POL ENT 02). Se a entrega não for comprovada, o caso será tratado como extravio (POL ENT 02). 
+
+Se o atraso for confirmado ao final da apuração, o valor do frete é reembolsado (POL ENT 02). Você não precisa realizar nenhuma ação adicional e receberá as atualizações do status diretamente no sistema (POL ENT 02).",sim,sim,nao,nao
+R00095,falsificado,padrao,2026-04-20,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! A sua denúncia sobre a suspeita de imitação do produto foi registrada e será encaminhada para a equipe interna da área de autenticidade (POL AUT 02). 
+
+Para que a análise do anúncio e do item seja iniciada, você deve fornecer fotos da embalagem (com etiquetas e lacres), fotos do produto em múltiplos ângulos e imagens dos detalhes que motivaram a suspeita, além da identificação do pedido (POL AUT 02).
+
+Ressaltamos que a plataforma não aceita a venda de imitações como autênticas e os prazos de análise serão contados a partir do recebimento da documentação completa (POL AUT 02). 
+
+O procedimento para eventual devolução ou reembolso será analisado pela equipe de atendimento após a verificação do caso.",sim,na,nao,nao
+R00167,devolucao_ressarcimento,padrao,2026-02-07,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! As mensagens informais e regras do vendedor não prevalecem sobre a política oficial da plataforma (POL DEV 03). O seu chamado de devolução/ressarcimento será analisado pelo nosso suporte. 
+
+Como os trechos fornecidos não contêm a regra específica que define a partir de qual data o prazo de devolução é contado (data da compra ou do recebimento), nem os prazos exatos de devolução ou reembolso para a sua compra, o seu caso foi totalmente encaminhado para a equipe de atendimento para análise e resolução.",sim,nao,nao,sim
+R00186,outros,padrao,2026-03-05,"['pol-atd-01', 'pol-atd-01', 'pol-pro-05', 'rev-dev-v2', 'pol-atd-01']",,True,"Olá! Entendemos a sua situação em relação ao acesso à sua conta.
+
+Informamos que os documentos disponíveis não cobrem este caso. Por essa razão, seu chamado sobre a alteração de número e acesso à conta será encaminhado para análise da nossa equipe de atendimento (POL ATD 01).",sim,nao,nao,sim
+R00111,falsificado,premium,2026-02-24,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de produto falsificado será encaminhado para a análise especializada da área de autenticidade (POL ATD 01).
+
+Para podermos dar andamento à investigação, você precisa enviar pelo canal oficial as fotos da embalagem (com etiquetas e lacres), fotos do produto em múltiplos ângulos, fotos dos detalhes que motivaram a suspeita (como o acabamento e a ausência do selo) e o número do pedido (POL AUT 02). Se o anúncio for suspenso preventivamente durante a análise, isso não implica reconhecimento imediato de irregularidade (POL ATD 01).
+
+O ponto relativo à ausência do selo de garantia será analisado pela equipe de atendimento.",sim,na,nao,nao
+R00001,entrega,padrao,2026-06-07,"['pol-ent-02', 'pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-aut-02']",1.0,False,"Olá! Sentimos muito pelo atraso na entrega do seu produto. 
+
+Para resolver o seu caso, abriremos uma verificação com a transportadora. O prazo de resposta para a investigação do atraso é de 7 dias úteis se a compra foi com um vendedor parceiro, ou de 3 dias úteis se foi em uma loja oficial (POL ATD 01). Durante esse período, o repasse do pagamento ao vendedor fica retido por precaução (POL ENT 02).
+
+Confirmado o atraso, caso você opte pelo reenvio ou pelo reembolso integral do produto, o valor do frete pago será devidamente reembolsado (POL ENT 02).",sim,sim,nao,nao
+R00139,artigo_proibido,padrao,2026-06-06,"['pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos o seu registro referente ao item não permitido enviado junto ao seu pedido. 
+
+Sua denúncia foi registrada e o seu chamado será encaminhado diretamente para a equipe e área de conformidade, que é responsável por analisar a permissão ou proibição do item e tomar as providências necessárias, conforme previsto em nossas diretrizes (POL ATD 01) e na política de itens vedados (POL PRO 05). 
+
+A análise já está em curso. As orientações específicas e o desfecho referente à sua denúncia serão analisados e informados pela equipe de atendimento após a conclusão da deliberação por essa área responsável (POL ATD 01).",sim,na,nao,nao
+R00173,devolucao_ressarcimento,padrao,2026-05-16,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Sua solicitação de devolução e ressarcimento foi recebida e será analisada pela nossa equipe de atendimento para verificar a diferença no valor restituído. 
+
+De acordo com a política da plataforma, o ressarcimento aprovado deve retornar integralmente pelo mesmo meio de pagamento utilizado na compra original, e a logística reversa em casos de devolução não possui custo para o comprador (POL DEV 03). Além disso, comunicações informais de vendedores não alteram os valores de ressarcimento (POL DEV 03).
+
+O ponto específico referente à divergência do valor creditado em sua conta será verificado detalhadamente pela equipe de atendimento para que você receba a devida orientação.",sim,nao,nao,nao
+R00195,outros,padrao,2026-03-02,"['pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'rev-dev-v2', 'pol-clu-01']",,False,"Olá! Olhei o seu caso e entendo que precise cancelar o pedido do headset. 
+
+Como a sua mensagem trata da solicitação de cancelamento de uma compra e os trechos disponíveis não informam as regras nem os procedimentos específicos para essa situação, este ponto será analisado pela equipe de atendimento, que dará o devido direcionamento para o seu caso.",nao,na,nao,sim
+R00024,entrega,premium,2026-04-30,"['pol-atd-01', 'pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01']",1.0,False,"Olá! Para analisar o seu caso de entrega, iniciaremos a verificação do rastreio e do prazo prometido no anúncio (POL ATD 01). 
+
+Se o pedido estiver dentro do prazo, você receberá orientação para acompanhar o rastreamento. Caso o prazo prometido tenha expirado, abriremos uma investigação com a transportadora. O prazo de resposta à investigação é de 3 dias úteis para compras em lojas oficiais ou de 7 dias úteis para vendedores parceiros (POL ATD 01). Se o atraso for confirmado, o valor do frete é reembolsado (POL ENT 02).
+
+Sobre a política com os prazos específicos por cidade, informo que este ponto será analisado pela equipe de atendimento (POL ATD 01).",sim,sim,nao,sim
+R00031,divergente_defeito,premium,2026-03-14,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Olhando os dados do seu chamado, identificamos o relato de divergência no produto recebido. 
+
+Para que a análise tenha prosseguimento, é necessário que você anexe fotos do item recebido que comprovem a divergência informada (POL ATD 01). 
+
+Assim que as fotos forem enviadas e a divergência for confirmada pela equipe responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso integral (POL ATD 01, POL DEV 03).
+
+Aguardamos o envio das fotografias para dar andamento ao seu atendimento!",sim,na,nao,nao
+R00129,artigo_proibido,premium,2026-09-25,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Registramos seu relato sobre o recebimento do item adicional não permitido enviado no seu pacote (POL PRO 05).
+
+Seu chamado foi encaminhado diretamente para a nossa área de conformidade, que é o setor responsável por analisar, deliberar e tomar as providências adequadas sobre a comercialização e o envio de itens vedados na plataforma (POL ATD 01). 
+
+O atendimento da equipe de conformidade já está em curso para a análise do ocorrido (POL ATD 01).",sim,na,nao,nao
+R00137,artigo_proibido,padrao,2026-07-08,"['pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia referente ao vendedor Vitrine Norte.
+
+Seu chamado foi registrado e encaminhado diretamente para a nossa área de conformidade, que é o setor responsável por analisar denúncias sobre comercialização de itens de venda não permitida (POL ATD 01). 
+
+A verificação do anúncio e da postura do vendedor seguirá os critérios e procedimentos estabelecidos na lista de itens de venda não permitida (POL PRO 05). 
+
+A análise já está em curso e você receberá um retorno assim que a área de conformidade concluir a avaliação do caso (POL ATD 01).
+
+Agradecemos por nos alertar e contribuir para a segurança da plataforma!",sim,na,nao,nao
+R00010,entrega,padrao,2026-08-09,"['pol-ent-02', 'com-2026-003', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! 
+
+Identificamos a sua reclamação sobre o atraso na entrega do seu livro. 
+
+Para casos em que o produto não é entregue, a plataforma abre uma investigação com a transportadora para verificar o ocorrido. O prazo para resposta e comprovação da entrega é de 7 dias úteis (POL ENT 02 / POL ATD 01). 
+
+A contagem do prazo oficial de entrega é iniciada a partir da confirmação do pagamento pelo sistema financeiro (POL ENT 02). Se for confirmado o atraso ou extravio pela transportadora, o valor do frete pago será reembolsado a você, independentemente de optar pelo reenvio do produto ou pelo reembolso integral (POL ENT 02).
+
+O seu chamado passará pela análise e investigação da nossa equipe.",sim,sim,nao,nao
+R00191,outros,padrao,2026-08-16,"['pol-atd-01', 'pol-pro-05', 'pol-dev-03', 'pol-atd-01', 'pol-atd-01']",,True,"Olá! Obrigado por entrar em contato com a Quantum Commerce.
+
+Sobre a falha no aplicativo ao tentar atualizar o endereço de entrega do seu pedido, informo que os documentos disponíveis não cobrem este caso. Por esse motivo, o seu chamado será encaminhado diretamente à nossa equipe de atendimento para análise e suporte técnico.
+
+Qualquer outra dúvida, estamos à disposição!",nao,nao,nao,sim
+R00158,devolucao_ressarcimento,padrao,2026-06-17,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Seu caso será encaminhado para a análise e auxílio da equipe de atendimento, pois você relatou uma falha técnica no aplicativo para gerar a etiqueta de postagem e os documentos disponíveis não cobrem problemas no sistema.
+
+Sobre os prazos de devolução por arrependimento, o comprador deve abrir o chamado na central de atendimento dentro do prazo de 7 dias corridos (POL DEV 03, Seção 1.2). Após a abertura do chamado, a plataforma fornece as instruções para a devolução do produto sem custo de frete (POL DEV 03, Seção 1.2). 
+
+A equipe de atendimento analisará o erro no aplicativo para liberar a sua etiqueta.",sim,sim,nao,sim
+R00122,artigo_proibido,premium,2026-08-31,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Agradecemos o envio do seu relato.
+
+Sua denúncia sobre a venda de item não permitido foi registrada e encaminhada para a área de conformidade da Quantum Commerce (POL ATD 01).
+
+Conforme as regras da plataforma, a oferta de chaves de ativação de software ou licenças digitais é expressamente proibida em qualquer circunstância (POL PRO 05, Seção 3.1.1).
+
+A decisão e a aplicação dos procedimentos de conformidade sobre a proibição do item cabem exclusivamente à área de conformidade, que já está conduzindo a análise do caso (POL ATD 01).",sim,na,nao,nao
+R00046,divergente_defeito,premium,2026-02-28,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'pol-atd-01', 'rev-dev-v2']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto com defeito e divergente, você precisa anexar fotos do item recebido (como a caixa, os parafusos faltantes e o manual), pois o envio dessas fotografias é condição obrigatória para a análise (POL ATD 01). 
+
+Seu chamado ficará suspenso aguardando o envio desse material (POL ATD 01). Assim que as imagens forem enviadas e a divergência ou defeito for confirmada pela área responsável, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso (POL ATD 01). 
+
+O prazo para a solicitação por defeito varia por categoria conforme a POL GAR 01 (POL DEV 03), ponto que será analisado pela equipe de atendimento.",sim,nao,nao,nao
+R00025,entrega,padrao,2026-01-30,"['pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02', 'pol-ent-02']",1.0,False,"Olá! Para o seu caso de pedido entregue em endereço incorreto, vamos abrir uma verificação com a transportadora e confirmar os dados do seu endereço. Durante esse processo, o repasse do pagamento ao vendedor permanecerá retido para a sua proteção (POL ENT 02). 
+
+Como a responsabilidade pela etiqueta com endereço incorreto e os procedimentos de correção dessa entrega não estão totalmente detalhados nos documentos disponíveis, esses pontos específicos serão analisados pela equipe de atendimento.
+
+Fonte: Política de entregas e prazos (POL ENT 02).",sim,na,nao,sim
+R00197,outros,padrao,2026-08-27,"['pol-atd-01', 'pol-atd-01', 'pol-atd-01', 'pol-dev-03', 'pol-dev-03']",,True,"Olá! Analisaremos sua reclamação sobre a cobrança de juros no parcelamento da sua compra. 
+
+Como os documentos disponíveis não cobrem este caso, seu chamado será encaminhado à equipe de atendimento para análise e tratativa adequada.",nao,nao,nao,sim
+R00039,divergente_defeito,padrao,2026-07-02,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Para darmos andamento ao seu caso, solicitamos que você anexe fotos do produto recebido comprovando a divergência com o anúncio, além do número do pedido e uma breve descrição do problema (POL ATD 01, POL DEV 03).
+
+Após o envio da documentação e a confirmação da divergência pela nossa equipe, você poderá escolher entre a troca do item ou a devolução com reembolso integral (POL ATD 01, POL DEV 03). Se você optar pela troca e o mesmo produto não estiver disponível em estoque, poderá aguardar a reposição ou receber o reembolso total, sem nenhum custo adicional (POL DEV 03).",sim,na,nao,nao
+R00108,falsificado,padrao,2026-03-15,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Analisaremos sua denúncia sobre a suspeita de imitação do produto. 
+
+Seu caso será encaminhado para investigação pela área de autenticidade (POL AUT 02). Para prosseguir com a análise, você deve enviar fotos da embalagem (com etiquetas e lacres), fotos do produto e dos elementos que motivam a suspeita (como o manual), além da identificação do pedido (POL AUT 02). Se for confirmada a falsificação, você terá direito ao reembolso integral do valor pago (POL AUT 02). 
+
+A análise das fotos e o prazo de tratativa da devolução/reembolso serão finalizados e informados pela equipe de atendimento assim que a documentação completa for recebida.",sim,sim,nao,nao
+R00130,artigo_proibido,padrao,2026-03-01,"['pol-pro-05', 'pol-atd-01', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Seu chamado sobre a denúncia de comercialização de item de venda não permitida foi recebido e registrado com sucesso (POL ATD 01). 
+
+O caso foi encaminhado para a nossa área de conformidade, que é o setor responsável por analisar a denúncia e aplicar os critérios da lista de itens vedados (POL ATD 01, POL PRO 05). Informamos que a análise já está em curso (POL ATD 01). 
+
+A verificação do anúncio e a deliberação sobre o produto serão concluídas pela equipe especializada (POL ATD 01).",sim,na,nao,nao
+R00134,artigo_proibido,padrao,2026-06-11,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia. 
+
+A oferta e inclusão de itens vedados, brindes não declarados ou materiais para negociações externas na embalagem por meio de envio conjunto são expressamente proíbidas na plataforma para qualquer vendedor (POL PRO 05, Preâmbulo e Seção 1.2).
+
+O seu relato e o caso foram registrados e encaminhados para apuração do procedimento de conformidade pelas equipes responsáveis (POL PRO 05, Definições). O andamento do seu chamado e as providências adotadas quanto à conduta do vendedor serão analisados pela equipe de atendimento.
+
+Agradecemos o seu contato e a sua colaboração.
+
+Atenciosamente,
+Atendimento Quantum Commerce (POL PRO 05).",sim,na,nao,nao
+R00052,divergente_defeito,padrao,2026-07-26,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! Para dar andamento ao seu caso de produto com defeito ou divergente, é necessário anexar fotos ou vídeos do item recebido comprovando o problema (POL ATD 01, POL DEV 03).
+
+Após o envio da documentação e a confirmação do defeito pela nossa equipe, você poderá escolher entre a troca do produto pelo mesmo item ou o reembolso integral do valor pago (POL DEV 03). Caso você escolha a troca e não haja estoque disponível com o vendedor, ofereceremos a opção de aguardar a reposição ou receber o reembolso total sem custos (POL DEV 03). 
+
+A análise das fotos e o acompanhamento da sua solicitação serão realizados pela nossa equipe de atendimento (POL DEV 03).",sim,na,nao,nao
+R00005,entrega,premium,2026-08-28,"['pol-dev-03', 'pol-atd-01', 'pol-atd-01', 'pol-ent-02', 'pol-aut-02']",1.0,False,"Seu caso passará por uma verificação inicial do rastreio e do prazo prometido no anúncio (POL ATD 01). 
+
+Se o prazo prometido de entrega tiver sido ultrapassado, será aberta uma investigação formal com a transportadora. Durante essa apuração, você será mantido informado, sendo o prazo de resposta de 7 dias úteis para vendas por vendedores parceiros ou de 3 dias úteis para lojas oficiais (POL ATD 01). Caso o pedido ainda esteja dentro do prazo prometido, você receberá orientações para acompanhamento e canais de rastreio (POL ATD 01).
+
+O ponto referente aos prazos e condições para uma nova tentativa de entrega na sua cidade será analisado pela equipe de atendimento.",sim,sim,nao,nao
+R00028,entrega,premium,2026-09-01,"['pol-ent-02', 'pol-ent-02', 'com-2026-003', 'pol-atd-01', 'pol-gar-01']",1.0,False,"Olá! Sentimos muito pelo atraso na entrega da sua compra.
+
+Vamos analisar o ocorrido junto à transportadora. A contagem do prazo de entrega começa na confirmação do pagamento pelo sistema financeiro da plataforma (POL ENT 02). 
+
+Caso a transportadora tenha registrado a entrega como efetuada, mas você não tenha recebido o produto, abriremos uma verificação formal. A transportadora terá até 7 dias úteis para apresentar a comprovação (como foto ou assinatura), período no qual você receberá atualizações automáticas e o repasse ao vendedor ficará retido (POL ENT 02). Se a entrega não for comprovada, o caso será tratado como extravio (POL ENT 02). 
+
+Seu chamado já está registrado e em tratamento por nossa equipe.",sim,nao,nao,nao
+R00034,divergente_defeito,padrao,2026-03-22,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,True,"Olá! Para dar andamento ao seu pedido de troca por defeito, é necessário que você anexe fotos do produto recebido comprovando o problema relatado (POL ATD 01). Após a confirmação do defeito pela nossa equipe, você poderá seguir com a opção de troca pelo mesmo item, sujeita à disponibilidade de estoque (POL DEV 03).
+
+Em relação ao atraso relatado na entrega, os documentos disponíveis não cobrem este caso, e esse ponto específico será analisado pela nossa equipe de atendimento.
+
+Permanecemos à disposição para ajudar assim que as fotos forem enviadas!",sim,nao,nao,sim
+R00099,falsificado,padrao,2026-07-28,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Seu chamado sobre a suspeita de produto falsificado passará por uma análise detalhada conduzida pela nossa área de autenticidade (POL AUT 02). 
+
+Para que a investigação tenha prosseguimento, é necessário apresentar fotos da embalagem (com etiquetas e lacres), imagens do produto em diferentes ângulos e detalhes dos elementos que motivaram a suspeita, além da identificação do pedido (POL AUT 02). O prazo de análise e os direitos associados contam a partir do envio da documentação completa (POL AUT 02).
+
+Quanto aos seus pedidos de remoção do anúncio do vendedor e de processamento imediato do reembolso, informamos que esses pontos serão analisados pela equipe de atendimento responsável após a verificação das provas.",sim,nao,nao,nao
+R00097,falsificado,padrao,2026-08-31,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Recebemos o seu relato sobre a suspeita de o brinquedo adquirido ser uma imitação. 
+
+Para que a **Área de autenticidade** analise o caso, você deve fornecer fotos da embalagem (com etiquetas e lacres), fotos do produto em diversos ângulos e imagens detalhadas dos elementos que motivaram a suspeita (como o logotipo e o acabamento incorretos), além do número do pedido (POL AUT 02). 
+
+Com a documentação completa, seu chamado será analisado pela equipe de atendimento dedicada, que verificará a denúncia para dar o devido encaminhamento à solução (POL AUT 02).",sim,na,nao,nao
+R00059,divergente_defeito,padrao,2026-04-05,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto divergente, é necessário que você anexe fotos do item recebido ao chamado (POL ATD 01).
+
+Assim que as evidências forem enviadas, faremos a análise. Comprovada a divergência, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso (POL ATD 01). 
+
+Por favor, envie as fotos do brinquedo recebido diretamente por este canal para que nossa equipe possa prosseguir com o seu atendimento e orientá-lo sobre os próximos passos.",sim,na,nao,nao
+R00018,entrega,padrao,2026-05-19,"['pol-ent-02', 'pol-ent-02', 'pol-ent-02', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Vamos te ajudar com o seu pedido. 
+
+Como o seu produto está sem movimentação e atrasado, abriremos uma investigação formal com a transportadora e manteremos o valor pago pelo frete garantido para reembolso quando o atraso for confirmado (POL ENT 02). Se a compra foi feita com vendedor parceiro, o prazo de resposta é de até 7 dias úteis; se foi com loja oficial, o prazo é de até 3 dias úteis (POL ATD 01).
+
+Sobre a impossibilidade de alterar o endereço do seu outro pedido no aplicativo, este ponto será analisado e respondido pela nossa equipe de atendimento.",sim,sim,nao,nao
+R00152,devolucao_ressarcimento,padrao,2026-07-26,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! A sua solicitação de ressarcimento para a devolução do livro no valor de R$ 47,93 será devidamente processada pela nossa plataforma.
+
+Como o pagamento retorna obrigatoriamente pelo mesmo meio utilizado na compra (cartão ou Pix), o prazo final para o valor constar na sua conta ou fatura depende exclusivamente do processamento da sua própria instituição financeira ou operadora do cartão (POL DEV 03). A Quantum Commerce não tem controle sobre os prazos internos dos bancos após efetuar o estorno no sistema (POL DEV 03).
+
+O andamento exato e a confirmação do envio do seu reembolso serão analisados e acompanhados pela nossa equipe de atendimento.",nao,nao,nao,nao
+R00153,devolucao_ressarcimento,premium,2026-04-29,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Analisaremos o valor do seu ressarcimento referente à compra da cafeteira. 
+
+A confirmação do reembolso total do valor pago ou a verificação da diferença cobrada será analisada pela equipe de atendimento, pois os documentos disponíveis não contêm as regras de cálculo para a divergência de valor no seu caso.
+
+Para compras com pagamento aprovado para ressarcimento, o estorno é processado pelo mesmo meio de pagamento utilizado na compra original ou por devolução na conta de origem (POL DEV 03).
+
+Seu caso foi registrado e encaminhado para a equipe de atendimento dar o devido segmento.",sim,nao,nao,sim
+R00117,falsificado,padrao,2026-10-02,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02']",1.0,False,"Olá! Para dar andamento à sua denúncia sobre a suspeita de imitação, o seu caso precisa ser registrado formalmente com o envio das fotos da embalagem (com etiquetas e lacres), do produto e das evidências da falsificação (como a divergência no logotipo), além da identificação do pedido (POL AUT 02). 
+
+Com essa documentação completa disponível, sua solicitação será encaminhada para a análise da área de autenticidade (POL AUT 02). 
+
+Como os trechos não definem o prazo exato para a conclusão da análise do seu chamado, a resolução final e a verificação do reembolso serão analisadas pela equipe de atendimento.",sim,na,nao,sim
+R00088,fraude_vendedor,premium,2026-03-28,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-aut-02']",1.0,False,"Olá! Olá! Recebemos sua mensagem sobre a suspeita referente ao vendedor.
+
+Seu chamado foi registrado e será encaminhado para a nossa área de prevenção para apuração formal da conduta e verificação de má-fé (POL ATD 01, Seção 4; POL DIS 04). Durante toda a apuração, os valores do vendedor permanecem totalmente retidos na plataforma (POL ATD 01, Seção 4).
+
+Ressaltamos que a plataforma recomenda que os pagamentos sejam realizados exclusivamente pelos meios oficiais do site; pagamentos feitos fora do ambiente da plataforma não possuem proteção ou reembolso (POL ATD 01, Seção 4).
+
+Qualquer atualização sobre o caso será comunicada pela equipe responsável após o término das investigações (POL DIS 04).",sim,na,nao,nao
+R00176,devolucao_ressarcimento,padrao,2026-04-26,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e continuidade do suporte.,nao,nao,nao,sim
+R00043,divergente_defeito,padrao,2026-08-07,"['pol-atd-01', 'pol-dev-03', 'pol-dev-03', 'pol-gar-01', 'pol-gar-01']",1.0,False,"Olá! Para dar andamento ao seu caso de produto divergente, é necessário que você anexe fotos do item recebido e da caixa para comprovação (POL ATD 01, POL DEV 03). 
+
+Com as imagens anexadas, confirmada a divergência, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01). 
+
+O pedido de troca ou devolução e ressarcimento será processado e analisado conforme as regras da nossa política de devoluções (POL DEV 03). As questões relatadas sobre a divergência do modelo e a avaria na caixa do transporte serão totalmente analisadas pela nossa equipe de atendimento (POL DEV 03).
+
+Fontes: (POL ATD 01) e (POL DEV 03).",sim,na,nao,nao
+R00068,fraude_vendedor,padrao,2026-08-06,"['pol-atd-01', 'pol-atd-01', 'pol-dis-04', 'pol-atd-01', 'pol-atd-01']",1.0,False,"Olá! O seu chamado envolve a suspeita de conduta fraudulenta ou má-fé por parte do vendedor. 
+
+Para a resolução do caso, ele será encaminhado para a área de prevenção, que realizará uma apuração formal (POL ATD 01, POL DIS 04). Durante todo esse processo de investigação, o pagamento referente ao pedido fica completamente retido, sem qualquer liberação antecipada ao vendedor (POL ATD 01). Se a má-fé for confirmada pela área de prevenção, a conta do vendedor será suspensa imediatamente (POL DIS 04). 
+
+Por favor, observe também que pagamentos efetuados fora da plataforma não possuem proteção ou reembolso sob nenhuma hipótese (POL ATD 01).",sim,na,nao,nao
+R00131,artigo_proibido,padrao,2026-04-19,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Recebemos a sua denúncia referente ao anúncio do produto. 
+
+Seu chamado foi registrado e encaminhado para a área de conformidade, que é o setor responsável por analisar a permissão ou proibição de itens conforme os critérios da lista de itens de venda não permitida (POL ATD 01, Seção 6; POL PRO 05). O atendimento da plataforma não tem competência para deliberar sobre a permissão do item, por isso o caso continuará sob análise dessa equipe especializada (POL ATD 01, Seção 6).
+
+Assim que a verificação for concluída, as medidas cabíveis serão aplicadas conforme as regras vigentes.",sim,na,nao,nao
+R00169,devolucao_ressarcimento,premium,2026-02-14,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,True,Os documentos disponíveis não cobrem este caso. Seu chamado será encaminhado à equipe de atendimento para análise e solução referente à divergência do valor creditado.,sim,nao,nao,sim
+R00160,devolucao_ressarcimento,padrao,2026-04-13,"['rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Analisamos o seu caso sobre a recusa da entrega do kit de pincéis.
+
+Como o produto foi recusado no momento da entrega e retornou ao vendedor, a cobrança deve ser cancelada integralmente após a confirmação desse retorno pela transportadora, incluindo o cancelamento das parcelas futuras da compra (POL DEV 03).
+
+A verificação do retorno da mercadoria à loja BelezaViva Oficial e o efetivo cancelamento das parcelas no seu cartão de crédito serão analisados e processados pela nossa equipe de atendimento.
+
+Permanecemos à disposição para acompanhar o seu caso até a conclusão do cancelamento!",sim,na,nao,nao
+R00047,divergente_defeito,padrao,2026-09-04,"['pol-atd-01', 'pol-dev-03', 'pol-atd-01', 'pol-dev-03', 'pol-gar-01']",1.0,False,"Olá! Para dar andamento à análise do seu caso de produto com defeito ou divergente, é necessário enviar fotos do item recebido (POL ATD 01). O seu chamado ficará suspenso aguardando esse envio (POL ATD 01).
+
+Após o recebimento das fotos e a confirmação do problema pela área responsável, você poderá escolher entre a troca do item ou a devolução com reembolso (POL ATD 01). Os procedimentos, prazos e opções de ressarcimento seguirão integralmente as regras da nossa política (POL ATD 01, POL DEV 03).
+
+Por favor, anexe as imagens no chamado para que possamos prosseguir.",sim,na,nao,nao
+R00150,artigo_proibido,padrao,2026-07-28,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01']",1.0,False,"Olá! Seu chamado sobre a denúncia de oferta de itens não permitidos foi recebido. 
+
+Seu caso será encaminhado para a área de conformidade, que é o setor exclusivo competente para analisar e deliberar sobre a proibição ou permissão de comercialização de produtos na plataforma (POL ATD 01, Seção 6). O atendimento registrará a denúncia e informará a evolução assim que a análise em curso for concluída (POL ATD 01, Seção 6).
+
+As regras e categorias aplicáveis aos itens vedados na plataforma seguem os critérios da Lista de Itens de Venda Não Permitida (POL PRO 05).",sim,na,nao,nao
+R00037,divergente_defeito,padrao,2026-03-12,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2']",1.0,False,"Olá! Para darmos andamento ao seu caso de produto com divergência ou defeito, é necessário que você anexe fotos do item recebido no chamado (POL ATD 01). 
+
+Após a confirmação do defeito ou divergência pela área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso (POL ATD 01). 
+
+Sobre o prazo de garantia para a sua categoria (maquiagem), o caso será analisado pela equipe de atendimento para identificação do prazo aplicável, pois o documento com essa especificação não está disponível no momento.",sim,nao,nao,sim
+R00154,devolucao_ressarcimento,padrao,2026-07-12,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03']",1.0,False,"Olá! Para solicitar a devolução e o reembolso, você pode exercer o direito de arrependimento abrindo um chamado na central de atendimento em até 7 dias corridos a contar do recebimento do produto (POL DEV 03, versão 3, Seção 1.2 e FAQ). 
+
+Após a abertura da solicitação indicando a desistência, a plataforma fornecerá as instruções e a etiqueta de logística reversa para a devolução do item sem nenhum custo de frete para você (POL DEV 03, versão 3, Seção 1.2 e FAQ). O ressarcimento será processado e devolvido pelo mesmo meio de pagamento utilizado na compra original (POL DEV 03, versão 3, FAQ).",sim,sim,nao,nao
+R00106,falsificado,premium,2026-07-25,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Seu caso sobre a suspeita de produto falsificado será encaminhado para a área de autenticidade para análise especializada (POL ATD 01). 
+
+Para prosseguir com a investigação formal e garantir a análise, solicitamos o envio de fotos do produto (em diferentes ângulos), da embalagem (com etiquetas e lacres visíveis) e dos elementos que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Com a documentação completa disponibilizada, a equipe analisará o caso. Se confirmada a imitação, as regras da plataforma preveem o reembolso integral do valor pago (POL AUT 02).",sim,sim,nao,nao
+R00057,divergente_defeito,padrao,2026-06-09,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01']",1.0,False,"Olá! Para dar andamento ao seu caso, você precisa anexar fotos do brinquedo recebido (POL ATD 01). 
+
+Após o envio do material e a confirmação da divergência ou defeito pela área responsável, você poderá escolher entre a troca do produto ou a devolução com reembolso, conforme as regras da política de trocas e ressarcimentos (POL ATD 01). 
+
+Por favor, envie as imagens diretamente no chamado para prosseguirmos com a análise (POL ATD 01).",sim,na,nao,nao
+R00044,divergente_defeito,padrao,2026-03-21,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01']",1.0,False,"Olá! Para darmos prosseguimento à análise do seu caso de defeito, é necessário que você anexe fotos do produto recebido (POL ATD 01).
+
+Após o envio das imagens e a confirmação do defeito pela área responsável, você poderá escolher entre a troca pelo mesmo produto ou a devolução com reembolso integral (POL ATD 01, POL DEV 03).
+
+Sobre o prazo de garantia para a categoria do seu produto, o trecho específico da tabela da política POL GAR 01 não foi fornecido no momento. Por isso, essa verificação do prazo exato será analisada e concluída pela nossa equipe de atendimento (POL ATD 01).",sim,nao,nao,sim
+R00124,artigo_proibido,padrao,2026-02-04,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-atd-01', 'pol-pro-05']",1.0,False,"Olá! Olá! Recebemos o seu registro sobre o incentivo de negociação por canal externo ao marketplace.
+
+Seu chamado foi registrado e encaminhado diretamente para a nossa área de conformidade, que é o setor exclusivo competente para analisar e deliberar sobre a proibição ou violação das regras de comercialização do item (POL ATD 01). 
+
+A análise está em curso e a decisão final sobre a denúncia cabe à equipe de conformidade, seguindo os critérios da política de itens de venda não permitida (POL ATD 01, POL PRO 05). Em breve você receberá o retorno sobre o andamento do caso.",sim,na,nao,nao
+R00121,artigo_proibido,padrao,2026-06-30,"['pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05', 'pol-pro-05']",1.0,False,"Olá! Agradecemos o seu contato e a sua denúncia.
+
+O vendedor é integralmente responsável pelos anúncios e itens que oferece, incluindo brindes disponibilizados em conjunto com o produto principal (POL PRO 05). 
+
+A denúncia referente ao anúncio do produto ""Box trilogia O Reino Partido"", vendido por Central das Marcas, foi recebida e o caso será analisado e encaminhado à nossa equipe de atendimento para verificação e aplicação das providências necessárias conforme o procedimento de conformidade (POL PRO 05).
+
+Permanecemos à disposição para eventuais dúvidas.",sim,na,nao,nao
+R00156,devolucao_ressarcimento,premium,2026-08-04,"['pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-dev-03', 'pol-clu-01']",1.0,False,"Sua solicitação de devolução e ressarcimento de R$ 44,50 pelo item de maquiagem foi registrada. A plataforma fornecerá as instruções e a logística reversa sem custo para você (POL DEV 03). O ressarcimento será processado pelo mesmo meio de pagamento utilizado na compra original (POL DEV 03).
+
+Como o seu relato trata do acompanhamento do agendamento da coleta e da liberação do crédito após a aprovação da devolução, os pontos específicos referentes ao agendamento da logística e ao prazo exato de liberação do valor serão analisados pela equipe de atendimento.",sim,sim,nao,sim
+R00115,falsificado,premium,2026-03-14,"['pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-aut-02', 'pol-atd-01']",1.0,False,"Olá! Para dar andamento à sua denúncia sobre a suspeita de imitação, o seu caso será encaminhado para a área de autenticidade, que realizará a análise especializada (POL ATD 01). 
+
+Para que a investigação seja iniciada, é necessário enviar fotos da embalagem (com etiquetas e lacres), do produto sob diferentes ângulos e dos detalhes que motivaram a suspeita, além da identificação do pedido (POL AUT 02). 
+
+Se necessário, o anúncio poderá ser suspenso preventivamente durante o processo (POL ATD 01). O prazo de análise pela equipe responsável será informado assim que a documentação completa for recebida.",sim,nao,nao,nao
+R00056,divergente_defeito,padrao,2026-06-19,"['pol-atd-01', 'rev-dev-v2', 'rev-dev-v2', 'rev-dev-v2', 'pol-gar-01']",1.0,False,"Olá! Para darmos andamento à sua solicitação de troca por defeito, é necessário que você anexe fotos do produto recebido comprovando a avaria e o defeito relatos (POL ATD 01). 
+
+Após o envio da documentação fotográfica e a confirmação do defeito pela equipe responsável, você poderá optar pela troca ou pela devolução com reembolso (POL ATD 01, POL DEV 03). Seu chamado seguirá em análise assim que as imagens forem disponibilizadas (POL ATD 01).",sim,nao,nao,nao
+R00022,entrega,premium,2026-08-05,"['pol-atd-01', 'pol-ent-02', 'pol-ent-02', 'pol-ent-02', 'pol-ent-02']",1.0,False,"Olá! Vamos abrir uma verificação com a transportadora para apurar o ocorrido e o repasse ao vendedor ficará retido preventivamente. 
+
+A transportadora tem o prazo de até 7 dias úteis para apresentar a comprovação da entrega, como assinatura ou foto (POL ENT 02). Durante esse período, faremos a apuração e você receberá as atualizações necessárias (POL ATD 01).
+
+Se a entrega não for comprovada, o caso será tratado como extravio e você poderá escolher pelo reenvio do produto ou pelo reembolso integral (POL ENT 02).
+
+A confirmação do seu endereço para dar andamento à verificação será analisada pela equipe de atendimento (POL ENT 02).",sim,sim,sim,nao
